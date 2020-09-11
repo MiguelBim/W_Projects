@@ -1,0 +1,46 @@
+bucket_name_dev,bucket_name_prod,technical_owner_dev,business_owner_dev,technical_owner_prod,business_owner_prod
+aperture-aws-ec2-and-038374183314,aperture-aws-ec2-and-504627477299,Cyber Security,Stewart Wolfe,cyber_security,Stewart Wolfe 
+aws-ai-svc-dev,aws-ai-svc-prod,Engineering,Jack Hsu,,Jack Hsu
+aws-athena-query-results-761361480551-us-east-1,aws-athena-query-results-504627477299-us-east-1,DataEng,DataEng,data_engineering,
+aws-athena-query-results-038374183314-us-west-2,aws-athena-query-results-504627477299-us-west-2,DataEng,DataEng,data_engineering,
+data-platform-aux-dev,data-platform-aux-production,Data Engineering,,data_engineering,
+dba-dev-database-archives,dba-database-archives,,,database_services,Andrew Clark
+oportun-import-bucket,five9-bucket-repo,,,Telephony,Mario Rodriguez
+juno-qa,juno-encrypted,,,Telephony,Mario Rodriguez
+oportun-asset-sales-data-engineering-qa1,oportun-asset-sales-collections-analytics,,,Collections,
+oportun-asset-sales-data-engineering-qa1,oportun-asset-sales-data-engineering,,,Collections,
+oportun-auto-loans-stage,oportun-auto-loans-prod-us-west-1,,,Engineering,
+oportun-auto-loans-stage,oportun-auto-loans-stage-us-west-1,,,Engineering,
+oportun-auto-loans-stage,oportun-auto-prod,,,Engineering,
+oportun-collection-service-qa11,oportun-collection-service-prod,ZEUS application development teams,Engineering,LegalEngineering,Collection Analytics
+dba-dev-database-archives,oportun-database-archives,,,data_engineering,
+oportun-five9-reports-qa9,oportun-five9-reports-prod,,,EngineeringJack Hsu,
+oportun-prod-template-storage,oportun-prod-all-template-storage,Origination,Origination,Engineering,
+oportun-qa11-app-leads-archive,oportun-prod-app-leads-archive,ZEUS application development teams,Engineering,EngineeringNavdeep Grover,Barbara Klingler
+oportun-s3-dev-usw2-restricted-spectrumautopaymentsdue,oportun-s3-prod-use1-restricted-spectrumautopaymentsdue,Servicing,Karuna Kandagatla or Jessica Velazquez,Engineering - Servicing,
+oportun-s3-qa-usw1-public-creditcard,oportun-s3-prod-usw1-restricted-creditcard,Data Engineering,Data Engineering (Aniket Mayakal),data_engineering,
+oportun-s3-dev-usw1-restricted-dmbi-operations-ocm,oportun-s3-prod-usw1-restricted-dmbi-operations-ocm,Data Management,Samir Pal,Data Management,
+oportun-s3-dev-usw2-restricted-spectrumautopaymentsdue,oportun-s3-prod-usw2-restricted-spectrumautopaymentsdue,Servicing,Karuna Kandagatla or Jessica Velazquez,Engineering - Servicing,
+oportun-s3-qa-usw1-public-creditcard,oportun-s3-stage-usw1-restricted-creditcard,Data Engineering,Data Engineering (Aniket Mayakal),data_engineering,
+oportun-s3-dev-usw2-restricted-spectrumautopaymentsdue,oportun-s3-stage-usw2-restricted-spectrumautopaymentsdue,Servicing,Karuna Kandagatla or Jessica Velazquez,Engineering - Servicing,
+dev-risk,oportun-secure-risk,,,Engineering Mark Wong,
+oportun-security-agents-dev,oportun-security-agents-prod,Cyber Security,Gene Sexton,SecEng,
+oportun-sftp-acxiom-non-prod,oportun-sftp-acxiom-prod,Data Science,Dustin Dill,,Barbara Klingler
+oportun-stage-all-template-storage,oportun-stage-all-template-storage,Origination,Origination,EngineeringKushal Chaterjee,
+oportun-qa11-app-leads-archive,oportun-stage-app-leads-archive,ZEUS application development teams,Engineering,EngineeringNavdeep Grover,
+oportun-qa2-app-leads,oportun-train1-app-leads,Origination,,EngineeringNavdeep Grover,
+oportun-qa11-app-leads-archive,oportun-train1-app-leads-archive,ZEUS application development teams,Engineering,EngineeringNavdeep Grover,
+oportun-qa2-app-leads,oportun-train2-app-leads,Origination,,EngineeringNavdeep Grover,
+oportun-qa11-app-leads-archive,oportun-train2-app-leads-archive,ZEUS application development teams,Engineering,EngineeringNavdeep Grover,
+qa1-app-documentos-replication,prod-app-documentos-replication,ZEUS application development teams,Engineering,EngineeringNishant SononeNarasiman Ramamoorthy,
+dev1-app-jobs,prod-app-jobs,ZEUS application development teams,narasiman.ramamoorthy@oportun.comnishant.sonone@oportun.comram.ramaswamy@oportun.com,EngineeringNishant SononeNarasiman Ramamoorthy,
+dev-doc-3425-jobs-replication,prod-app-jobs-replication,,,EngineeringNishant SononeNarasiman Ramamoorthy,
+qa4-app-risk-credit-profiles,stage1-app-risk-credit-profiles,,,EngineeringMark Wong,
+dev2-app-documentos,stage-app-documentos,ZEUS application development teams,narasiman.ramamoorthy@oportun.comnishant.sonone@oportun.comram.ramaswamy@oportun.com,EngineeringNishant SononeNarasiman Ramamoorthy,
+dev1-app-jobs,stage-app-jobs,ZEUS application development teams,narasiman.ramamoorthy@oportun.comnishant.sonone@oportun.comram.ramaswamy@oportun.com,EngineeringNishant SononeNarasiman Ramamoorthy,
+dev2-app-documentos,train1-app-documentos,ZEUS application development teams,narasiman.ramamoorthy@oportun.comnishant.sonone@oportun.comram.ramaswamy@oportun.com,EngineeringNishant SononeNarasiman Ramamoorthy,
+dev1-app-jobs,train1-app-jobs,ZEUS application development teams,narasiman.ramamoorthy@oportun.comnishant.sonone@oportun.comram.ramaswamy@oportun.com,EngineeringNishant SononeNarasiman Ramamoorthy,
+qa4-app-risk-credit-profiles,train1-app-risk-credit-profiles,,,EngineeringMark Wong,
+dev2-app-documentos,train2-app-documentos,ZEUS application development teams,narasiman.ramamoorthy@oportun.comnishant.sonone@oportun.comram.ramaswamy@oportun.com,EngineeringNishant SononeNarasiman Ramamoorthy,
+dev1-app-jobs,train2-app-jobs,ZEUS application development teams,narasiman.ramamoorthy@oportun.comnishant.sonone@oportun.comram.ramaswamy@oportun.com,EngineeringNishant SononeNarasiman Ramamoorthy,
+qa4-app-risk-credit-profiles,train2-app-risk-credit-profiles,,,EngineeringMark Wong,

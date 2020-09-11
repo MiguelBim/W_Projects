@@ -1,0 +1,374 @@
+,Proximity Id,Attribute,Value
+0,cis.customer_lead_mapping_history_pre.288647942,created_channel_id,0
+1,cis.customer_lead_mapping_history_pre.288647942,updated_date,01:01.0
+2,cis.customer_lead_mapping_history_pre.288647942,created_date,01:01.0
+3,cis.customer_lead_mapping_history_pre.288647942,created_user_id,2719
+4,cis.customer_lead_mapping_history_pre.288647942,customer_id,6d6d682e-eef8-452a-a549-fa8c052f4ba3
+5,cis.customer_lead_mapping_history_pre.288647942,id,8576354
+6,cis.customer_lead_mapping_history_pre.288647942,lead_id,1.03043E+14
+7,cis.customer_lead_mapping_history_pre.288647942,lead_source_service,LEAD_SOURCE
+8,cis.customer_lead_mapping_history_pre.288647942,revision_id,15
+9,cis.customer_lead_mapping_history_pre.288647942,revision_type,0
+10,cis.customer_lead_mapping_history_pre.288647942,updated_channel_id,0
+13,cis.customer_lead_mapping_history_pre.288647942,updated_user_id,2719
+14,cis.customer.-783909969,created_channel_id,0
+15,cis.customer.-783909969,updated_date,01:01.0
+16,cis.customer.-783909969,created_date,01:01.0
+17,cis.customer.-783909969,created_user_id,2719
+18,cis.customer.-783909969,customer_id,6d6d682e-eef8-452a-a549-fa8c052f4ba3
+20,cis.customer.-783909969,id,8440555
+21,cis.customer.-783909969,source_object_type,LEAD
+22,cis.customer.-783909969,updated_channel_id,0
+25,cis.customer.-783909969,updated_user_id,2719
+26,cis.customer_history_pre.441124143,created_channel_id,0
+27,cis.customer_history_pre.441124143,updated_date,01:01.0
+28,cis.customer_history_pre.441124143,created_date,01:01.0
+29,cis.customer_history_pre.441124143,created_user_id,2719
+30,cis.customer_history_pre.441124143,customer_id,6d6d682e-eef8-452a-a549-fa8c052f4ba3
+32,cis.customer_history_pre.441124143,id,8440555
+33,cis.customer_history_pre.441124143,revision_id,0
+34,cis.customer_history_pre.441124143,revision_type,0
+35,cis.customer_history_pre.441124143,source_object_type,LEAD
+36,cis.customer_history_pre.441124143,updated_channel_id,0
+39,cis.customer_history_pre.441124143,updated_user_id,2719
+40,cis.customer_lead_mapping.887055272,created_channel_id,0
+41,cis.customer_lead_mapping.887055272,updated_date,01:01.0
+42,cis.customer_lead_mapping.887055272,created_date,01:01.0
+43,cis.customer_lead_mapping.887055272,created_user_id,2719
+44,cis.customer_lead_mapping.887055272,customer_id,6d6d682e-eef8-452a-a549-fa8c052f4ba3
+45,cis.customer_lead_mapping.887055272,id,8576354
+46,cis.customer_lead_mapping.887055272,lead_id,1.03043E+14
+47,cis.customer_lead_mapping.887055272,lead_source_service,LEAD_SOURCE
+48,cis.customer_lead_mapping.887055272,updated_channel_id,0
+51,cis.customer_lead_mapping.887055272,updated_user_id,2719
+52,lead_source.lead_source.-504265503,created_date,03:51.0
+53,lead_source.lead_source.-504265503,created_user_id,1
+54,lead_source.lead_source.-504265503,id,8381846
+55,lead_source.lead_source.-504265503,lead_id,1.03043E+14
+56,lead_source.lead_source.-504265503,source_category,external
+57,lead_source.lead_source.-504265503,source_name,TU
+58,lead_source.lead_source.-504265503,source_id,V9LH4FFQ8565
+59,lead_source.lead_source.-504265503,updated_date,03:51.0
+60,lead_source.lead_source.-504265503,updated_user_id,1
+61,lead_source.lead_profile_old.1536971990,updated_date,01:01.0
+62,lead_source.lead_profile_old.1536971990,created_date,01:01.0
+63,lead_source.lead_profile_old.1536971990,created_user_id,2719
+64,lead_source.lead_profile_old.1536971990,customer_id,6d6d682e-eef8-452a-a549-fa8c052f4ba3
+65,lead_source.lead_profile_old.1536971990,first_name,Sam
+66,lead_source.lead_profile_old.1536971990,last_name,Talbot
+67,lead_source.lead_profile_old.1536971990,lead_id,1.03043E+14
+68,lead_source.lead_profile_old.1536971990,lead_type,qualified
+69,lead_source.lead_profile_old.1536971990,source_id,V9LH4FFQ8565
+70,lead_source.lead_profile_old.1536971990,status,active
+73,lead_source.lead_profile_old.1536971990,updated_user_id,2719
+74,lead_source.lead_profile_old.1536971990,year_of_birth,1980
+75,lead_source.lead_address.-602005895,address_id,1.03043E+14
+76,lead_source.lead_address.-602005895,address_type,h
+77,lead_source.lead_address.-602005895,cass_verified,0
+78,lead_source.lead_address.-602005895,city,LAS VEGAS
+79,lead_source.lead_address.-602005895,updated_date,01:01.0
+80,lead_source.lead_address.-602005895,created_date,01:01.0
+81,lead_source.lead_address.-602005895,created_user_id,2719
+82,lead_source.lead_address.-602005895,is_active,0
+83,lead_source.lead_address.-602005895,lead_id,1.03043E+14
+84,lead_source.lead_address.-602005895,postal_code,89142
+85,lead_source.lead_address.-602005895,start_date,00:00.0
+86,lead_source.lead_address.-602005895,state,NV
+87,lead_source.lead_address.-602005895,street_address_1,7584 RUBY LINE DR
+90,lead_source.lead_address.-602005895,updated_user_id,1
+91,lead_source.lead_address.1980906411,address_id,1.03043E+14
+92,lead_source.lead_address.1980906411,address_type,h
+93,lead_source.lead_address.1980906411,cass_verified,0
+94,lead_source.lead_address.1980906411,city,LAS VEGAS
+95,lead_source.lead_address.1980906411,updated_date,01:01.0
+96,lead_source.lead_address.1980906411,created_date,01:01.0
+97,lead_source.lead_address.1980906411,created_user_id,1
+98,lead_source.lead_address.1980906411,is_active,1
+99,lead_source.lead_address.1980906411,lead_id,1.03043E+14
+100,lead_source.lead_address.1980906411,postal_code,89122
+101,lead_source.lead_address.1980906411,start_date,03:34.0
+102,lead_source.lead_address.1980906411,state,NV
+103,lead_source.lead_address.1980906411,street_address_1,642 FRIAS POINT CT
+106,lead_source.lead_address.1980906411,updated_user_id,1
+107,lead_source.lead_profile.-1663601699,updated_date,01:01.0
+108,lead_source.lead_profile.-1663601699,created_date,01:01.0
+109,lead_source.lead_profile.-1663601699,created_user_id,2719
+110,lead_source.lead_profile.-1663601699,customer_id,6d6d682e-eef8-452a-a549-fa8c052f4ba3
+111,lead_source.lead_profile.-1663601699,first_name,Sam
+112,lead_source.lead_profile.-1663601699,last_name,Talbot
+113,lead_source.lead_profile.-1663601699,lead_id,1.03043E+14
+114,lead_source.lead_profile.-1663601699,lead_type,qualified
+115,lead_source.lead_profile.-1663601699,source_id,V9LH4FFQ8565
+116,lead_source.lead_profile.-1663601699,status,active
+119,lead_source.lead_profile.-1663601699,updated_user_id,2719
+120,lead_source.lead_profile.-1663601699,year_of_birth,1980
+121,progreso_production.credit_profiles.1567098754,address_count,7
+122,progreso_production.credit_profiles.1567098754,address_invalid,1
+123,progreso_production.credit_profiles.1567098754,bounced,0
+124,progreso_production.credit_profiles.1567098754,bureau,EXPERIAN
+125,progreso_production.credit_profiles.1567098754,completion_code,0
+126,progreso_production.credit_profiles.1567098754,created_at,57:51.0
+127,progreso_production.credit_profiles.1567098754,creator_id,553
+128,progreso_production.credit_profiles.1567098754,credit_pulled_with,0
+129,progreso_production.credit_profiles.1567098754,crypted_response_ssn_list,vp6pQDOLF9z+jq/dmtGNw==
+130,progreso_production.credit_profiles.1567098754,fingerprint,6cf7b0b0af25ee07574cad91283e08796572c98c
+131,progreso_production.credit_profiles.1567098754,fraud_indicator_list,21
+132,progreso_production.credit_profiles.1567098754,id,1348662
+133,progreso_production.credit_profiles.1567098754,informational_message_list,"921,202"
+134,progreso_production.credit_profiles.1567098754,invalid_fraud_service_indicators,0
+135,progreso_production.credit_profiles.1567098754,loan_application_id,1228758
+136,progreso_production.credit_profiles.1567098754,needs_correction,0
+137,progreso_production.credit_profiles.1567098754,non_processable,0
+138,progreso_production.credit_profiles.1567098754,now_delinquent_derog,0
+139,progreso_production.credit_profiles.1567098754,no_hit,0
+140,progreso_production.credit_profiles.1567098754,ofac_hit,0
+141,progreso_production.credit_profiles.1567098754,requestor_type,PreapprovalSection
+142,progreso_production.credit_profiles.1567098754,request_cell_phone_number,562-441-5743
+143,progreso_production.credit_profiles.1567098754,request_city,NORWALK
+144,progreso_production.credit_profiles.1567098754,request_dob,12/14/84
+145,progreso_production.credit_profiles.1567098754,first_name,Sam
+146,progreso_production.credit_profiles.1567098754,last_name,Talbot
+147,progreso_production.credit_profiles.1567098754,request_maternal_name,Sanchez
+148,progreso_production.credit_profiles.1567098754,request_state,CA
+149,progreso_production.credit_profiles.1567098754,request_street_address,118 MONDON AVE
+150,progreso_production.credit_profiles.1567098754,request_zip,90650
+151,progreso_production.credit_profiles.1567098754,response_city,NORWALK
+152,progreso_production.credit_profiles.1567098754,first_name,Sam Talbot
+153,progreso_production.credit_profiles.1567098754,full_name,Sam Talbot
+154,progreso_production.credit_profiles.1567098754,last_name,Sam Talbot
+155,progreso_production.credit_profiles.1567098754,response_state,CA
+156,progreso_production.credit_profiles.1567098754,response_street_address,118 MONDON AVE
+157,progreso_production.credit_profiles.1567098754,response_zip,906501738
+158,progreso_production.credit_profiles.1567098754,risk_credit_profile_id,1350767
+159,progreso_production.credit_profiles.1567098754,scorex_plus,9003
+160,progreso_production.credit_profiles.1567098754,ssn_count,0
+161,progreso_production.credit_profiles.1567098754,ssn_invalid,0
+162,progreso_production.credit_profiles.1567098754,successful,1
+163,progreso_production.credit_profiles.1567098754,system_error,0
+164,progreso_production.credit_profiles.1567098754,updated_at,57:51.0
+165,progreso_production.credit_profiles.1567098754,use_govt_id,N
+166,progreso_production.credit_profiles.1567098754,vantage_score,2
+167,progreso_production.credit_profiles.-1203068773,address_count,4
+168,progreso_production.credit_profiles.-1203068773,address_invalid,1
+169,progreso_production.credit_profiles.-1203068773,at_address_since,00:00.0
+170,progreso_production.credit_profiles.-1203068773,bounced,0
+171,progreso_production.credit_profiles.-1203068773,bureau,EXPERIAN
+172,progreso_production.credit_profiles.-1203068773,completion_code,0
+173,progreso_production.credit_profiles.-1203068773,created_at,41:17.0
+174,progreso_production.credit_profiles.-1203068773,creator_id,569
+175,progreso_production.credit_profiles.-1203068773,credit_pulled_with,0
+176,progreso_production.credit_profiles.-1203068773,crypted_response_ssn_list,slhxcFi9FKlY0ui+a1ajw==
+177,progreso_production.credit_profiles.-1203068773,crypted_ssn,slhxcFi9FKlY0ui+a1ajw==
+178,progreso_production.credit_profiles.-1203068773,fingerprint,ba6588f9689591face222fc42455cafaecae4ddc
+179,progreso_production.credit_profiles.-1203068773,id,2354965
+180,progreso_production.credit_profiles.-1203068773,informational_message_list,"921,202,335"
+181,progreso_production.credit_profiles.-1203068773,invalid_fraud_service_indicators,1
+182,progreso_production.credit_profiles.-1203068773,ln_in_person_application,0
+183,progreso_production.credit_profiles.-1203068773,loan_application_id,2020997
+184,progreso_production.credit_profiles.-1203068773,needs_correction,0
+185,progreso_production.credit_profiles.-1203068773,non_processable,0
+186,progreso_production.credit_profiles.-1203068773,now_delinquent_derog,5
+187,progreso_production.credit_profiles.-1203068773,no_hit,0
+188,progreso_production.credit_profiles.-1203068773,ofac_hit,0
+189,progreso_production.credit_profiles.-1203068773,requestor_type,CreditCheckStep
+190,progreso_production.credit_profiles.-1203068773,request_cell_phone_number,559-545-5117
+191,progreso_production.credit_profiles.-1203068773,request_city,FRESNO
+192,progreso_production.credit_profiles.-1203068773,request_dob,5/29/70
+193,progreso_production.credit_profiles.-1203068773,first_name,Sam
+194,progreso_production.credit_profiles.-1203068773,request_govt_city,KIRKLAND
+195,progreso_production.credit_profiles.-1203068773,request_govt_state,WA
+196,progreso_production.credit_profiles.-1203068773,request_govt_street_address,118 NE 98TH ST
+197,progreso_production.credit_profiles.-1203068773,request_govt_zip,98033
+198,progreso_production.credit_profiles.-1203068773,last_name,Talbot
+199,progreso_production.credit_profiles.-1203068773,request_state,CA
+200,progreso_production.credit_profiles.-1203068773,request_street_address,323 E BRALY AVE
+201,progreso_production.credit_profiles.-1203068773,request_zip,93702
+202,progreso_production.credit_profiles.-1203068773,response_city,LYNNWOOD
+203,progreso_production.credit_profiles.-1203068773,first_name,Sam Talbot
+204,progreso_production.credit_profiles.-1203068773,full_name,Sam Talbot
+205,progreso_production.credit_profiles.-1203068773,last_name,Sam Talbot
+206,progreso_production.credit_profiles.-1203068773,response_state,WA
+207,progreso_production.credit_profiles.-1203068773,response_street_address,151 35TH AVE W
+208,progreso_production.credit_profiles.-1203068773,response_street_address2,APT 13-104
+209,progreso_production.credit_profiles.-1203068773,response_zip,980872387
+210,progreso_production.credit_profiles.-1203068773,risk_credit_profile_id,2368569
+211,progreso_production.credit_profiles.-1203068773,scorex_plus,512
+212,progreso_production.credit_profiles.-1203068773,scorex_plus_score_factor_code_list,"61,07,63,60"
+213,progreso_production.credit_profiles.-1203068773,ssn_count,0
+214,progreso_production.credit_profiles.-1203068773,ssn_invalid,0
+215,progreso_production.credit_profiles.-1203068773,store_id,39
+216,progreso_production.credit_profiles.-1203068773,successful,1
+217,progreso_production.credit_profiles.-1203068773,system_error,0
+218,progreso_production.credit_profiles.-1203068773,tradeline_xml,<Field name='tradeline'>  <tradeline>  <SubField type='String' name='accountType'>07</SubField>  <SubField type='String' name='creditorName'>DON ROBERTO JEWELERS</SubField>  <SubField type='String' name='currentBalance'>00000648</SubField>  <
+219,progreso_production.credit_profiles.-1203068773,updated_at,41:17.0
+220,progreso_production.credit_profiles.-1203068773,use_govt_id,N
+221,progreso_production.credit_profiles.-1203068773,vantage_score,543
+222,progreso_production.credit_profiles.-1203068773,vantage_score_score_factor_code_list,"50,90,TX,TS"
+223,progreso_production.credit_profiles.-1027034390,address_count,2
+224,progreso_production.credit_profiles.-1027034390,address_invalid,0
+225,progreso_production.credit_profiles.-1027034390,at_address_since,00:00.0
+226,progreso_production.credit_profiles.-1027034390,bounced,0
+227,progreso_production.credit_profiles.-1027034390,bureau,EXPERIAN
+228,progreso_production.credit_profiles.-1027034390,completion_code,0
+229,progreso_production.credit_profiles.-1027034390,created_at,55:11.0
+230,progreso_production.credit_profiles.-1027034390,creator_id,3690
+231,progreso_production.credit_profiles.-1027034390,credit_pulled_with,0
+232,progreso_production.credit_profiles.-1027034390,crypted_request_xml,xiXH96IxxMq62Xtb7cz0insu2anL+OEmMNC9yclxQnPUWYXTRFbZHds0KQEKH m5T9fJDP1q9SQxpYmZIB18irVjYMrmBwbhqUei9sE+AxDTjPIywZ+B02tGfS Zxw/T4VtAUghvL6PJHX24ovoWkzmo9hxZNco23NussE5QEtLh7zf4u+S+Rtn PSkqxCGS7ib4KX2ibT6rxGJsdHBncxLtCY/OdFn/+/3mzyKj8Bn0IdS4UzXlc g2vo8nuJ2VI/NGzbP4IltJ6kBjbCiDUJ1fvCTaHBZvKWPTbqmbavYR70...
+233,progreso_production.credit_profiles.-1027034390,crypted_response_ssn_list,2Ps3BssZJl0pZlXc6upjaQ==
+234,progreso_production.credit_profiles.-1027034390,crypted_response_xml,wp9bdTO4nq+UxK6+R22Pt4EoKHa4LAgnl5+OIVNgILPKzJWAtTr/NkmGWE4Kv JO8TYQQpoE4/OE5rO0wOOwnew3oOmHjcJj92WWg9xxhOymS20aLvfHXYLd9/ aRF7NhSUkl62nMsfu62VjI7+BTfBwWDZQ1RuKbWicn5nqoerUM/gw97usDLg XOVlFZerSJ+jGBhbjfyCdb5uyKETS+cY8y+HNacjLI6hwMnYlDgYpVfzH5dk bWDw1nppSa1/yLt4oLbxMZfRWxtvlR+A/WPmpsOib1hgICzwjxAUrRyC...
+235,progreso_production.credit_profiles.-1027034390,crypted_ssn,2Ps3BssZJl0pZlXc6upjaQ==
+236,progreso_production.credit_profiles.-1027034390,extended_fraud_alert_hit,0
+237,progreso_production.credit_profiles.-1027034390,fingerprint,cd5f1c8ad874ecee9ce39fa91bbe416b267be1e6
+238,progreso_production.credit_profiles.-1027034390,id,4138046
+239,progreso_production.credit_profiles.-1027034390,informational_message_list,"63,92,1202,335,335"
+240,progreso_production.credit_profiles.-1027034390,invalid_fraud_service_indicators,0
+241,progreso_production.credit_profiles.-1027034390,ln_in_person_application,0
+242,progreso_production.credit_profiles.-1027034390,loan_application_id,1000513067
+243,progreso_production.credit_profiles.-1027034390,needs_correction,0
+244,progreso_production.credit_profiles.-1027034390,non_processable,0
+245,progreso_production.credit_profiles.-1027034390,now_delinquent_derog,0
+246,progreso_production.credit_profiles.-1027034390,no_hit,0
+247,progreso_production.credit_profiles.-1027034390,ofac_hit,0
+248,progreso_production.credit_profiles.-1027034390,requestor_type,PreapprovalSection
+249,progreso_production.credit_profiles.-1027034390,request_cell_phone_number,832-523-2667
+250,progreso_production.credit_profiles.-1027034390,request_city,HOUSTON
+251,progreso_production.credit_profiles.-1027034390,request_dob,1/5/84
+252,progreso_production.credit_profiles.-1027034390,first_name,Sam
+253,progreso_production.credit_profiles.-1027034390,request_home_phone_number,713-327-2533
+254,progreso_production.credit_profiles.-1027034390,last_name,Talbot
+255,progreso_production.credit_profiles.-1027034390,request_maternal_name,Cruz
+256,progreso_production.credit_profiles.-1027034390,request_state,TX
+257,progreso_production.credit_profiles.-1027034390,request_street_address,244 MARGARET ST
+258,progreso_production.credit_profiles.-1027034390,request_zip,77093
+259,progreso_production.credit_profiles.-1027034390,response_city,HOUSTON
+260,progreso_production.credit_profiles.-1027034390,first_name,Sam Talbot
+261,progreso_production.credit_profiles.-1027034390,full_name,Sam Talbot
+262,progreso_production.credit_profiles.-1027034390,last_name,Sam Talbot
+263,progreso_production.credit_profiles.-1027034390,response_state,TX
+264,progreso_production.credit_profiles.-1027034390,response_street_address,244 MARGARET ST
+265,progreso_production.credit_profiles.-1027034390,response_zip,770934531
+266,progreso_production.credit_profiles.-1027034390,risk_credit_profile_id,4172151
+267,progreso_production.credit_profiles.-1027034390,scorex_plus,645
+268,progreso_production.credit_profiles.-1027034390,scorex_plus_score_factor_code_list,"07,70,60,06"
+269,progreso_production.credit_profiles.-1027034390,ssn_count,0
+270,progreso_production.credit_profiles.-1027034390,ssn_invalid,0
+271,progreso_production.credit_profiles.-1027034390,store_id,84
+272,progreso_production.credit_profiles.-1027034390,successful,1
+273,progreso_production.credit_profiles.-1027034390,system_error,0
+274,progreso_production.credit_profiles.-1027034390,tradeline_xml,<Field name='tradeline'>  <tradeline>  <SubField type='String' name='accountType'>01</SubField>  <SubField type='String' name='creditorName'>OPORTUN/PROGRESO</SubField>  <SubField type='BigDecimal' name='originalAmount'>1260.0</SubField>  <Su
+275,progreso_production.credit_profiles.-1027034390,updated_at,55:11.0
+276,progreso_production.credit_profiles.-1027034390,use_govt_id,N
+277,progreso_production.credit_profiles.-1027034390,vantage_score,705
+278,progreso_production.credit_profiles.-1027034390,vantage_score_score_factor_code_list,"90,TS,60,20"
+279,progreso_production.credit_profiles.2019447788,address_count,0
+280,progreso_production.credit_profiles.2019447788,address_invalid,1
+281,progreso_production.credit_profiles.2019447788,bounced,0
+282,progreso_production.credit_profiles.2019447788,bureau,EXPERIAN
+283,progreso_production.credit_profiles.2019447788,completion_code,0
+284,progreso_production.credit_profiles.2019447788,created_at,20:11.0
+285,progreso_production.credit_profiles.2019447788,creator_id,2454
+286,progreso_production.credit_profiles.2019447788,credit_pulled_with,0
+287,progreso_production.credit_profiles.2019447788,crypted_itin,HbRVwkGc6/XCwB1SVsWTBw==
+288,progreso_production.credit_profiles.2019447788,crypted_request_xml,xiXH96IxxMq2Xtb7cz0insu2anL+OEmMNC9yclxQnPUWYXTRFbZHds0KQEKH m5T9fJDP1q9SQxpYmZIB18irVjYMrmBwbhqUei9sE+AxDTisVdjD/5ks+WU4 C7bOf3JBKkKGpQ6769+MdiLObehpHiUMsSUcrVU7U0wSdkGxqDzjTh+CkLWZ e1Q7848Zqmc815tE/Zk6Q2Gn2L+ySB4kEkzTxbIblK9jbM0u4m6I1EI1RFfw F6BsOUc5012GZYyhgR/AG+wprfgMzJXiI/NTs0zCZ01bYT//M4uSa6lE...
+289,progreso_production.credit_profiles.2019447788,crypted_response_xml,wp9bdTOnq+UxK6+R22Pt4EoKHa4LAgnl5+OIVNgILPKzJWAtTr/NkmGWE4Kv JO8TYQQpoE4/OE5rO0wOOwnew3oOmHjcJj92WWg9xxhOymRx6R4cW0DbyiB6 AVKUicDgdqsKNPNUAPMKZRZZokRzUkaXafEd4IQfS/Qvw+oVnrFdnt9Vfixz wfk6BrqUhIkjozdZ/qAkmEopubVwcLAu1kl7TMkbXkMD2Rwgv6Tr0aT5sR9P pmsGdlRIOrC2FmhjpObAalrEaBuencOB+XwZjrNTaYiel8+cSk+wbpZq...
+290,progreso_production.credit_profiles.2019447788,extended_fraud_alert_hit,0
+291,progreso_production.credit_profiles.2019447788,fingerprint,d96815dec9daf8492f218efb69d07f5a1f068279
+292,progreso_production.credit_profiles.2019447788,id,5092168
+293,progreso_production.credit_profiles.2019447788,informational_message_list,"63,92,1202,1207,1152,335,335,335"
+294,progreso_production.credit_profiles.2019447788,invalid_fraud_service_indicators,1
+295,progreso_production.credit_profiles.2019447788,ln_in_person_application,0
+296,progreso_production.credit_profiles.2019447788,loan_application_id,1001276373
+297,progreso_production.credit_profiles.2019447788,needs_correction,0
+298,progreso_production.credit_profiles.2019447788,non_processable,0
+299,progreso_production.credit_profiles.2019447788,now_delinquent_derog,0
+300,progreso_production.credit_profiles.2019447788,no_hit,0
+301,progreso_production.credit_profiles.2019447788,ofac_hit,0
+302,progreso_production.credit_profiles.2019447788,requestor_type,PreapprovalSection
+303,progreso_production.credit_profiles.2019447788,request_cell_phone_number,435-879-9040
+304,progreso_production.credit_profiles.2019447788,request_city,NORTH HOLLYWOOD
+305,progreso_production.credit_profiles.2019447788,request_dob,5/11/83
+306,progreso_production.credit_profiles.2019447788,first_name,Sam
+307,progreso_production.credit_profiles.2019447788,request_home_phone_number,435-879-9040
+308,progreso_production.credit_profiles.2019447788,last_name,Talbot
+309,progreso_production.credit_profiles.2019447788,request_maternal_name,Bucio
+310,progreso_production.credit_profiles.2019447788,request_previous_city,NORTH HOLLYWOOD
+311,progreso_production.credit_profiles.2019447788,request_previous_state,CA
+312,progreso_production.credit_profiles.2019447788,request_previous_street_address,741 COLDWATER CANYON AVE APT 2
+313,progreso_production.credit_profiles.2019447788,request_previous_zip,91605
+314,progreso_production.credit_profiles.2019447788,request_state,CA
+315,progreso_production.credit_profiles.2019447788,request_street_address,125 VANOWEN ST APT 18
+316,progreso_production.credit_profiles.2019447788,request_zip,91605
+317,progreso_production.credit_profiles.2019447788,response_city,NORTH HOLLYWOOD
+318,progreso_production.credit_profiles.2019447788,first_name,Sam Talbot
+319,progreso_production.credit_profiles.2019447788,full_name,Sam Talbot
+320,progreso_production.credit_profiles.2019447788,last_name,Sam Talbot
+321,progreso_production.credit_profiles.2019447788,response_state,CA
+322,progreso_production.credit_profiles.2019447788,response_street_address,741 COLDWATER CANYON AV
+323,progreso_production.credit_profiles.2019447788,response_street_address2,APT 2
+324,progreso_production.credit_profiles.2019447788,response_zip,916054912
+325,progreso_production.credit_profiles.2019447788,risk_credit_profile_id,5179714
+326,progreso_production.credit_profiles.2019447788,scorex_plus,681
+327,progreso_production.credit_profiles.2019447788,scorex_plus_score_factor_code_list,"03,36,81,06"
+328,progreso_production.credit_profiles.2019447788,ssn_count,0
+329,progreso_production.credit_profiles.2019447788,ssn_invalid,0
+330,progreso_production.credit_profiles.2019447788,store_id,184
+331,progreso_production.credit_profiles.2019447788,successful,1
+332,progreso_production.credit_profiles.2019447788,system_error,0
+333,progreso_production.credit_profiles.2019447788,tradeline_xml,<Field name='tradeline'>  <tradeline>  <SubField type='String' name='accountType'>06</SubField>  <SubField type='String' name='creditorName'>CURACAO</SubField>  <SubField type='BigDecimal' name='currentBalance'>0.00</SubField>  <SubField type
+334,progreso_production.credit_profiles.2019447788,updated_at,20:11.0
+335,progreso_production.credit_profiles.2019447788,use_govt_id,N
+336,progreso_production.credit_profiles.2019447788,vantage_score,749
+337,progreso_production.credit_profiles.2019447788,vantage_score_score_factor_code_list,"TS,50,30,TD,Q0"
+338,progreso_production.credit_profiles.-1180848681,address_count,2
+339,progreso_production.credit_profiles.-1180848681,address_invalid,0
+340,progreso_production.credit_profiles.-1180848681,bounced,0
+341,progreso_production.credit_profiles.-1180848681,bureau,EXPERIAN
+342,progreso_production.credit_profiles.-1180848681,completion_code,0
+343,progreso_production.credit_profiles.-1180848681,created_at,22:01.0
+344,progreso_production.credit_profiles.-1180848681,creator_id,3203
+345,progreso_production.credit_profiles.-1180848681,credit_pulled_with,0
+346,progreso_production.credit_profiles.-1180848681,crypted_request_xml,xiXH96IxxrMq2Xtb7cz0insu2anL+OEmMNC9yclxQnPUWYXTRFbZHds0KQEKH m5T9fJDP1q9SQxpYmZIB18irVjYMrmBwbhqUei9sE+AxDTimzTlecQ/HLlZ0 UkxSbNEPTsejGVGM/U+SKFzU79DmJtJvlMSNN+E8fEByA6j+GLSTfgsZIl1v xE0dg1fyAlS00fvZLPSaxRw2rDfnno+Oi8GXj9EBBMec1ohyJxMvBIP2z733f IJ6rVZpNHxUBRA4QqvOfTKQY+lVqHuay91hqsxWD5Ie+GGRKMFdIdwMR...
+347,progreso_production.credit_profiles.-1180848681,crypted_response_ssn_list,vCz0nC2TDUlSQjysIf1pBw==
+348,progreso_production.credit_profiles.-1180848681,crypted_response_xml,wp9bdTOnhq+UxK6+R22Pt4EoKHa4LAgnl5+OIVNgILPKzJWAtTr/NkmGWE4Kv JO8TYQQpoE4/OE5rO0wOOwnew3oOmHjcJj92WWg9xxhOymTf61DKXNYAVCjn 4J/ln+zsfwO8mGkCH1NoIyRaYzWIRxqm4qpLbyEX8mbqneHEhYHlzRNZP76V BUr94cl607GwdBKQBWlRjufCzpV0wgFBAGYKD7kd3IgnI+Yf4QH3ZAIp4L5t +F5cqlD1Q/NmvOjy5k4ScPmAttk0t2EX57vsFZ/JRS+xh/YZAjnXyzKA...
+349,progreso_production.credit_profiles.-1180848681,crypted_ssn,vCz0nC2TDUlSQjysIjf1pBw==
+350,progreso_production.credit_profiles.-1180848681,extended_fraud_alert_hit,0
+351,progreso_production.credit_profiles.-1180848681,fingerprint,bfc3adb48b4985aefb33503108cfb95493ef9df7
+352,progreso_production.credit_profiles.-1180848681,id,5274645
+353,progreso_production.credit_profiles.-1180848681,informational_message_list,"63,92,1202,1204,335,335"
+354,progreso_production.credit_profiles.-1180848681,invalid_fraud_service_indicators,0
+355,progreso_production.credit_profiles.-1180848681,ln_in_person_application,0
+356,progreso_production.credit_profiles.-1180848681,loan_application_id,1001423283
+357,progreso_production.credit_profiles.-1180848681,needs_correction,0
+358,progreso_production.credit_profiles.-1180848681,non_processable,0
+359,progreso_production.credit_profiles.-1180848681,now_delinquent_derog,2
+360,progreso_production.credit_profiles.-1180848681,no_hit,0
+361,progreso_production.credit_profiles.-1180848681,ofac_hit,0
+362,progreso_production.credit_profiles.-1180848681,requestor_type,PreapprovalSection
+363,progreso_production.credit_profiles.-1180848681,request_cell_phone_number,323-978-3008
+364,progreso_production.credit_profiles.-1180848681,request_city,LOS ANGELES
+365,progreso_production.credit_profiles.-1180848681,request_dob,6/10/91
+366,progreso_production.credit_profiles.-1180848681,first_name,Sam
+367,progreso_production.credit_profiles.-1180848681,last_name,Talbot
+368,progreso_production.credit_profiles.-1180848681,request_state,CA
+369,progreso_production.credit_profiles.-1180848681,request_street_address,528 ASCOT AVE
+370,progreso_production.credit_profiles.-1180848681,request_zip,90011
+371,progreso_production.credit_profiles.-1180848681,response_city,LOS ANGELES
+372,progreso_production.credit_profiles.-1180848681,first_name,Sam Talbot
+373,progreso_production.credit_profiles.-1180848681,full_name,Sam Talbot
+374,progreso_production.credit_profiles.-1180848681,last_name,Sam Talbot
+375,progreso_production.credit_profiles.-1180848681,response_state,CA
+376,progreso_production.credit_profiles.-1180848681,response_street_address,528 ASCOT AVE
+377,progreso_production.credit_profiles.-1180848681,response_zip,900114910
+378,progreso_production.credit_profiles.-1180848681,risk_credit_profile_id,5386160
+379,progreso_production.credit_profiles.-1180848681,scorex_plus,452
+380,progreso_production.credit_profiles.-1180848681,scorex_plus_score_factor_code_list,"07,61,63,56"
+381,progreso_production.credit_profiles.-1180848681,ssn_count,0
+382,progreso_production.credit_profiles.-1180848681,ssn_invalid,0
+383,progreso_production.credit_profiles.-1180848681,store_id,194
+384,progreso_production.credit_profiles.-1180848681,successful,1
+385,progreso_production.credit_profiles.-1180848681,system_error,0
+386,progreso_production.credit_profiles.-1180848681,tradeline_xml,<Field name='tradeline'>  <tradeline>  <SubField type='String' name='accountType'>48</SubField>  <SubField type='String' name='creditorName'>ENHANCED RECOVERY CO L</SubField>  <SubField type='BigDecimal' name='originalAmount'>395.00</SubField>
+387,progreso_production.credit_profiles.-1180848681,updated_at,22:01.0
+388,progreso_production.credit_profiles.-1180848681,use_govt_id,N
+389,progreso_production.credit_profiles.-1180848681,vantage_score,551
+390,progreso_production.credit_profiles.-1180848681,vantage_score_score_factor_code_list,"TS,20,30,TB,Q0"
