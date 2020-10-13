@@ -1,9 +1,9 @@
 from smb.SMBConnection import SMBConnection
+from dotenv import load_dotenv
 import pandas as pd
 import tempfile
 import warnings
 import csv
-from dotenv import load_dotenv
 import os
 
 pd.set_option('display.max_rows', 700)
@@ -22,7 +22,7 @@ warnings.filterwarnings("ignore")
 def extract_clarity_reports(report_name, sas_folder):
     df = pd.read_csv(report_name)
     reduced_df = df[['Full Object Name', 'Object Name', 'PII Count']]
-    filtered_reduced_df = reduced_df[reduced_df['Full Object Name'].str.contains("clarity_inquiry")]
+    filtered_reduced_df = reduced_df[reduced_df['Full Object Name'].str.contains("clarity")]
     filtered_reduced_df['Full Object Name'] = filtered_reduced_df['Full Object Name'].map(lambda x: x.lstrip(sas_folder))
     # filtered_reduced_df.to_csv('clarity_files_paths.csv', header=True, index=True)
 
@@ -101,12 +101,12 @@ if __name__ == '__main__':
 
     # EXTRACT MEANINGFUL FILES PATHS
     clarity_files_path = extract_clarity_reports(bigid_rep_name, sas_server)
-    # clarity_files_path.to_csv('clarity_files_paths_ds.csv', header=True, index=True)
+    clarity_files_path.to_csv('clarity_files_paths_ds.csv', header=True, index=False)
 
     # CREATE UNIFIED DATAFRAME AUTOMATICALLY
-    consolidate_data(clarity_files_path, sas_server)
+    # consolidate_data(clarity_files_path, sas_server)
 
     # FILTER BY STATES (LIST OF VALUE) THE CONSOLIDATION FILE
-    df = pd.read_csv("data_consolidation_details.csv", index_col=0)
-    states = ['CA','TX']
-    filter_by_states(df, states)
+    # df = pd.read_csv("data_consolidation_details.csv", index_col=0)
+    # states = ['CA','TX']
+    # filter_by_states(df, states)
