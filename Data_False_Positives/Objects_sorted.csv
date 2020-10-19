@@ -1,0 +1,319 @@
+,file_paths,file_size
+0,/Shared/DM/Barbara_Klingler/Projects/Mobile Response/2017_02 Deep Dive Mobile gt50mi/GRRNBR.csv,347.0 B
+1,/Shared/DM/ChunLi/truenewvol.csv,424.0 B
+2,/Shared/DM/DM202010/Source Files/Internal/vol_compare_0908.csv,677.0 B
+3,/Shared/DM/Barbara_Klingler/Projects/2017_11 Address Dropping ACX/wave12.csv,700.0 B
+4,/Shared/DM/Barbara_Klingler/Projects/2017_11 Address Dropping ACX/wave10.csv,811.0 B
+5,/Shared/DM/Barbara_Klingler/Projects/2016_07 FPD30 by Loan Amt/NewCustomers.csv,929.0 B
+6,/Shared/DM/PaulaSanchez/Credit Card/Zeus_DMfile_201911_31OCT20191.csv,1021.0 B
+7,/Shared/DM/Birst Post-Processing/Archive/mail_decision_flatfile_20191118.csv,2.82 KB
+8,/Shared/DM/Birst Post-Processing/Archive/mail_decision_flatfile_20191007.csv,3.2 KB
+9,/Shared/DM/Birst Post-Processing/Archive/mail_decision_flatfile_20190624.csv,3.2 KB
+10,/Shared/DM/Birst Post-Processing/Archive/mail_decision_flatfile_20190903.csv,3.21 KB
+11,/Shared/DM/Birst Post-Processing/Archive/mail_decision_flatfile_20190520.csv,3.51 KB
+12,/Shared/DM/Analysis/20190717_VH/Error Detail_LR80.csv,3.58 KB
+13,/Shared/DM/Birst Post-Processing/Archive/mail_decision_flatfile_20190424.csv,3.58 KB
+14,/Shared/DM/Birst Post-Processing/Archive/mail_decision_flatfile_20191028.csv,3.63 KB
+15,/Shared/DM/YeonjiChoi/Old Files/source1.csv,3.73 KB
+16,/Shared/DM/Birst Post-Processing/Archive/mail_decision_flatfile_20190722.csv,3.86 KB
+17,/Shared/DM/ChunLi/mf_unexplained.csv,5.5 KB
+18,/Shared/DM/Acxiom Inputs/PROJ/Archive/tu_baseline_180529.csv,7.53 KB
+19,/Shared/DM/Barbara_Klingler/Projects/2017_04 Conv by TA/ConvbyTA.csv,8.56 KB
+20,/Shared/DM/Analysis/20190717_VH/LR8.csv,8.73 KB
+21,/Shared/DM/_ARCHIVE/MKavaliova/Code/SAS/layout_2.csv,14.44 KB
+22,/Shared/DM/_ARCHIVE/MKavaliova/DM/Acxiom_data_check/NOIDENT.csv,14.44 KB
+23,/Shared/DM/ChunLi/GCP_New_customers.csv,17.47 KB
+24,/Shared/DM/PaulaSanchez/Credit Card/DM 202009/CDI Email Retargetting/CC_FastFollow_Visa_20200922 -- 09-29-20.csv,21.78 KB
+25,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20170407.csv,26.83 KB
+26,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20170616.csv,26.86 KB
+27,/Shared/DM/DM Documents/Internal Audit/DNM Requests by Mail during Wave 9.csv,28.14 KB
+28,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20170504.csv,29.81 KB
+29,/Shared/DM/Acxiom Inputs/Preference/manual notes for suppression.csv,38.57 KB
+30,/Shared/DM/DM Documents/Corelogic/nextgen_transition_2020_06_01.csv,42.28 KB
+31,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20170915.csv,44.13 KB
+32,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20171112.csv,47.61 KB
+33,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20171120.csv,51.29 KB
+34,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20171219.csv,53.17 KB
+35,/Shared/DM/ChunLi/INT_W5_Dedup_Examples.csv,54.3 KB
+36,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20180125 (ITA-GP).csv,55.3 KB
+37,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20180212.csv,57.17 KB
+38,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20180215.csv,57.29 KB
+39,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20180430.csv,61.64 KB
+40,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20180418.csv,61.66 KB
+41,/Shared/DM/DM2020TR/To_LOB/TRE_DM_20200821_Day13_100_space.csv,62.07 KB
+42,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20180621.csv,65.38 KB
+43,/Shared/DM/Analysis/20190405_Automatic_Model/CreditCard/cc_risk_FPD30_DQ30.csv,76.12 KB
+44,/Shared/DM/Barbara_Klingler/Projects/2016_03 San Antonio Performance/SanAntonioNeverPay.csv,77.41 KB
+45,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20181115.csv,77.89 KB
+46,/Shared/DM/Birst Post-Processing/Insert Records/Archive/fpa_reforecast_flatfile_20181025.csv,80.59 KB
+47,/Shared/DM/ChunLi/Trigger_DM_Fix0819.csv,81.02 KB
+48,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/LN_prod_sample.csv,82.09 KB
+49,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20190123.csv,84.71 KB
+50,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20190225.csv,86.45 KB
+51,/Shared/DM/Birst Post-Processing/Insert Records/fpa_reforecast_flatfile_20190227.csv,87.77 KB
+52,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20190227.csv,87.77 KB
+53,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20190320.csv,90.42 KB
+54,/Shared/DM/Birst Post-Processing/Insert Records/fpa_reforecast_flatfile_20190320.csv,90.42 KB
+55,/Shared/DM/YeonjiChoi/Old Files/TU Email Test/EML Leads/Zeus_DMfile_EML_Optout_v2.csv,90.77 KB
+56,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20190424.csv,93.57 KB
+57,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20190624.csv,100.15 KB
+58,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/FT_prod_sample.csv,103.5 KB
+59,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20190722.csv,103.89 KB
+60,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20190903.csv,105.64 KB
+61,/Shared/DM/Post_Processing_Trigger/Final_Files/ACX_Uploads/Oportun_TRE_MailList_202009_20200817.csv,106.71 KB
+62,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20191007.csv,110.74 KB
+63,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20191028.csv,114.03 KB
+64,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20200106.csv,121.01 KB
+65,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20200205.csv,124.54 KB
+66,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20200302.csv,127.97 KB
+67,/Shared/DM/DM Model Inventory/202008_LN_ADS_V3/ln_sample_1000.csv,141.51 KB
+68,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20200331.csv,147.42 KB
+69,/Shared/DM/Birst Post-Processing/Archive/fpa_reforecast_flatfile_20200507.csv,147.42 KB
+70,/Shared/DM/DM202012/Source Files/Preference/sc_req_item.csv,150.43 KB
+71,/Shared/DM/DM Suppression/manual notes for suppression.csv,162.77 KB
+72,/Shared/DM/DM202010/Source Files/Preference/sc_req_item.csv,166.47 KB
+73,/Shared/DM/YeonjiChoi/Unarchive/DM201902/Source Files/Creative/Creative_20190103.csv,168.87 KB
+74,/Shared/DM/_ARCHIVE/MKavaliova/Data/Data_test.csv,192.65 KB
+75,/Shared/DM/CDesai/MATRIX_201912.csv,214.32 KB
+76,/Shared/DM/DM202011/Source Files/Preference/sc_req_item.csv,220.88 KB
+77,/Shared/DM/YeonjiChoi/Unarchive/DM201902/Source Files/Preference/sc_req_item.csv,237.8 KB
+78,/Shared/DM/Post_Processing_Trigger/Final_Files/LOB_Uploads/TRE_DM_20200818_WI.csv,245.31 KB
+79,/Shared/DM/Post_Processing_Trigger/Final_Files/LOB_Uploads/TRE_DM_20200818_test.csv,245.31 KB
+80,/Shared/DM/ChunLi/sc_req_item.csv,249.82 KB
+81,/Shared/DM/DM202011/Source Files/Creative/matrix.csv,283.38 KB
+82,/Shared/DM/Analysis/20190405_Automatic_Model/CreditCard/creditcard_passrisk.csv,298.6 KB
+83,/Shared/DM/PaulaSanchez/Installment Loans/Telesales/Previo New ATP/Output/pred_prev_new_atp_conv_test.csv,316.28 KB
+84,/Shared/DM/PaulaSanchez/Installment Loans/Telesales/Previo New ATP/Output/predrank_prev_new_atp_conv_test.csv,318.83 KB
+85,/Shared/DM/Post_Processing_Trigger/Final_Files/ACX_Uploads/Oportun_TRE_MailList_202009_20200818.csv,362.41 KB
+86,/Shared/DM/Acxiom Inputs/Stores/Stores (19).csv,367.88 KB
+87,/Shared/DM/PaulaSanchez/Credit Card/DM 202008/W8_CARD_ITA.csv,409.67 KB
+88,/Shared/DM/PaulaSanchez/Credit Card/DM 202001/From Jquin/330891912.m01.dropship.DRP2C4SP.1230.return.csv,494.07 KB
+89,/Shared/DM/PaulaSanchez/Credit Card/DM 202001/From Jquin/330891912.m01.dropship.DRP2C2SP.1230.return.csv,532.77 KB
+90,/Shared/DM/PaulaSanchez/Credit Card/DM 202001/From Jquin/330891912.m01.dropship.DRP2C4SP.1220.return.csv,534.09 KB
+91,/Shared/DM/PaulaSanchez/Credit Card/DM 202001/From Jquin/30891912.m01.DRP2C2SP.1220.return.csv,626.37 KB
+92,/Shared/DM/PaulaSanchez/Credit Card/DM 202001/From Jquin/30891912.m01.DRP2C4SP.1230.return.csv,643.04 KB
+93,/Shared/DM/Acxiom Inputs/Preference/ALL_PF_DNM.csv,649.44 KB
+94,/Shared/DM/PaulaSanchez/Credit Card/DM 202001/From Jquin/30891912.m01.DRP2C2SP.1230.return.csv,657.95 KB
+95,/Shared/DM/Post_Processing_Trigger/Final_Files/SQL_Uploads/Datamart_TRE_202009_20200814.csv,766.65 KB
+96,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/dm_exp_dev_sub.csv,808.37 KB
+97,/Shared/DM/PaulaSanchez/Installment Loans/Telesales/Previo New ATP/Output/pred_prev_new_atp_conv_train.csv,857.29 KB
+98,/Shared/DM/PaulaSanchez/Installment Loans/Telesales/Previo New ATP/Output/predrank_prev_new_atp_conv_train.csv,863.22 KB
+99,/Shared/DM/Acxiom Inputs/Preference/Preference 20170504.csv,950.81 KB
+100,/Shared/DM/Acxiom Inputs/Preference/DNM archive 6.1.2016 to 5.3.2017.csv,981.68 KB
+101,/Shared/DM/Analysis/20200616_Multichannel_Attribution/00_App_No_Channel.csv,999.72 KB
+102,/Shared/DM/PaulaSanchez/Credit Card/DM 202001/From Jquin/30891912.m01.DRP2C3EN.1230.return.csv,1.03 MB
+103,/Shared/DM/PaulaSanchez/Credit Card/DM 202001/From Jquin/30891912.m01.DRP2C3EN.1220.return.csv,1.1 MB
+104,/Shared/DM/Analysis/20190405_Automatic_Model/CreditCard/creditcard_response.csv,1.12 MB
+105,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_lang_pref_oot.csv,1.31 MB
+106,/Shared/DM/_ARCHIVE/MKavaliova/Data/Zeus_mb_perf_booked.csv,1.39 MB
+107,/Shared/DM/YeonjiChoi/Ad_Hoc/sc_req_item.csv,1.4 MB
+108,/Shared/DM/Birst Post-Processing/goal_flatfile_20160425.csv,1.56 MB
+109,/Shared/DM/DM2020TR/To_LOB/TRE_DM_20200821_Day13_Space.csv,1.62 MB
+110,/Shared/DM/DM2020TR/To_LOB/TRE_DM_20200821_Day13.csv,1.63 MB
+111,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_lang_pref_dev.csv,1.75 MB
+112,/Shared/DM/Post_Processing_Trigger/Final_Files/SQL_Uploads/Datamart_TRE_202009_2020-08-19.csv,1.99 MB
+113,/Shared/DM/DM2020TR/Datamart_Upload/Datamart_TRE_2020-08-24.csv,2.01 MB
+114,/Shared/DM/DM2020TR/To_LOB/TRE_DM_20200821_Day15_spacetest.csv,2.05 MB
+115,/Shared/DM/_ARCHIVE/MKavaliova/Data/Zeus_perf_all.csv,2.05 MB
+116,/Shared/DM/DM2020TR/To_LOB/TRE_DM_20200821_Day15_space.csv,2.05 MB
+117,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/CL_sample.csv,2.17 MB
+118,/Shared/DM/DM2020TR/To_LOB/TRE_DM_20200821_Day14_space.csv,2.22 MB
+119,/Shared/DM/DM2020TR/To_LOB/TRE_DM_20200821_Day20.csv,2.25 MB
+120,/Shared/DM/DM2020TR/To_LOB/TRE_DM_20200821_Day19.csv,2.37 MB
+121,/Shared/DM/PaulaSanchez/Installment Loans/Telesales/Previo New ATP/Output/previo_new_atp_test.csv,2.39 MB
+122,/Shared/DM/Analysis/20190104NPV/TERM_SEGMENT/RecentWeight/11__LoanPerformance.csv,2.49 MB
+123,/Shared/DM/PaulaSanchez/Installment Loans/Telesales/Previo New ATP/Output/predrank_prev_new_atp_test.csv,2.73 MB
+124,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/LP_scred.csv,2.75 MB
+125,/Shared/DM/_ARCHIVE/MKavaliova/Data/Zeus_mob_perf_rec.csv,3.02 MB
+126,/Shared/DM/YeonjiChoi/Old Files/Mailing_Cadence/response_final_v2.csv,3.25 MB
+127,/Shared/DM/DM2019TR/Leads_Upload/Zeus_DMfile_201906_23MAY2019.csv,3.37 MB
+128,/Shared/DM/DM2019TR/Datamart_Upload/Datamart_TRE1_2019-08-23.csv,3.49 MB
+129,/Shared/DM/DM Documents/Lexis Nexis/free-zipcode-database-Primary.csv,3.54 MB
+130,/Shared/DM/DM2020TR/Datamart_Upload/Datamart_TRE_2020_08_31.csv,3.73 MB
+131,/Shared/DM/Barbara_Klingler/Audit Reqs/Card Audit List 1.csv,4.18 MB
+132,/Shared/DM/DM2019TR/Datamart_Upload/Datamart_2019-05-24.csv,4.32 MB
+133,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/FT_sample.csv,4.54 MB
+134,/Shared/DM/Analysis/20190104NPV/TERM_SEGMENT/RecentWeight/11__mail_response.csv,4.63 MB
+135,/Shared/DM/Post_Processing_Trigger/Final_Files/LOB_Uploads/TRE_DM_20200818.csv,5.57 MB
+136,/Shared/DM/PaulaSanchez/Installment Loans/Telesales/Previo New ATP/Output/previo_new_atp_training.csv,5.57 MB
+137,/Shared/DM/PaulaSanchez/Credit Card/DM 202001/From Jquin/updated_maildate.csv,5.76 MB
+138,/Shared/DM/DM2019TR/Datamart_Upload/Datamart_TRG_2019-06-17.csv,5.94 MB
+139,/Shared/DM/_ARCHIVE/MKavaliova/Data/Zeus_mb_pf.csv,6.29 MB
+140,/Shared/DM/DM2019TR/Datamart_Upload/Datamart_201909_2019-10-11.csv,6.78 MB
+141,/Shared/DM/YeonjiChoi/Unarchive/DM201902/Source Files/Customer Updates/Customer_Update_20190110.csv,6.8 MB
+142,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/EFX_sample.csv,6.82 MB
+143,/Shared/DM/DM2019TR/Leads_Upload/TRG_Zeus_DMfile_201911_08OCT20191.csv,7.31 MB
+144,/Shared/DM/Post_Processing_Trigger/LOBupload/TRE_DM_2020_08_31.csv,7.35 MB
+145,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/mk.ads_applied_dev_lang2.csv,7.71 MB
+146,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/mk.ads_applied_oot_lang.csv,7.99 MB
+147,/Shared/DM/PaulaSanchez/Installment Loans/ResOcc 2019/Monitoring/30601908.m01.Oportun.returnfile.csv,8.81 MB
+148,/Shared/DM/PaulaSanchez/Installment Loans/ResOcc 2019/Monitoring/30601905.m01.Oportun.returnfile.csv,9.02 MB
+149,/Shared/DM/DM2019TR/Leads_Upload/Zeus_DMfile_201909_19AUG20191.csv,9.61 MB
+150,/Shared/DM/CDesai/DupResidents.csv,10.05 MB
+151,/Shared/DM/DM2019TR/Datamart_Upload/Datamart_2019-05-31.csv,10.88 MB
+152,/Shared/DM/DM2019TR/Leads_Upload/Zeus_DMfile_201908_07AUG20194.csv,11.09 MB
+153,/Shared/DM/_ARCHIVE/MKavaliova/Data/Zeus_mb_perf.csv,11.23 MB
+154,/Shared/DM/DM2019TR/Leads_Upload/Zeus_TRG_DMfile_201910_25SEP20192.csv,11.26 MB
+155,/Shared/DM/DM2019TR/Leads_Upload/Zeus_TRG_DMfile_201910_02OCT20193.csv,11.44 MB
+156,/Shared/DM/DM2019TR/Leads_Upload/Zeus_DMfile_201909_03SEP20193.csv,12.2 MB
+157,/Shared/DM/DM2019TR/Leads_Upload/Zeus_DMfile_201908_22JUL20191.csv,12.7 MB
+158,/Shared/DM/DM2019TR/Leads_Upload/TRG_Zeus_DMfile_201911_22OCT20193.csv,13.21 MB
+159,/Shared/DM/PaulaSanchez/Installment Loans/Oportun Batch Test/Telesign_Sample20180611.csv,13.29 MB
+160,/Shared/DM/DM2019TR/Leads_Upload/Zeus_DMfile_201907_27JUN20193.csv,13.32 MB
+161,/Shared/DM/DM2019TR/Leads_Upload/Zeus_DMfile_201907_20JUN20192.csv,13.44 MB
+162,/Shared/DM/DM2019TR/Leads_Upload/Zeus_DMfile_201909_28AUG20192.csv,13.55 MB
+163,/Shared/DM/DM2019TR/Leads_Upload/Zeus_DMfile_201907_01JUL20194.csv,13.63 MB
+164,/Shared/DM/DM2019TR/Leads_Upload/Zeus_DMfile_201907_08JUL20195.csv,14.22 MB
+165,/Shared/DM/DM2019TR/Datamart_Upload/TRG_Datamart_201912_2019-12-13.csv,14.37 MB
+166,/Shared/DM/DM2019TR/Datamart_Upload/TRG_Datamart_2019-10-04.csv,14.86 MB
+167,/Shared/DM/DM2019TR/Datamart_Upload/Datamart_2019-10-04.csv,14.86 MB
+168,/Shared/DM/DM2019TR/Datamart_Upload/Datamart_2019-07-26.csv,14.97 MB
+169,/Shared/DM/DM2019TR/Datamart_Upload/TRG_Datamart_2019-11-08.csv,15.09 MB
+170,/Shared/DM/DM2019TR/Datamart_Upload/TRG_Datamart_201912_2019-11-29.csv,15.29 MB
+171,/Shared/DM/DM2019TR/Datamart_Upload/Datamart_TRE_2019-09-13.csv,15.36 MB
+172,/Shared/DM/DM2019TR/Datamart_Upload/TRG_Datamart_2019-11-01.csv,15.55 MB
+173,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tum_oot_2_wave1_19.csv,16.52 MB
+174,/Shared/DM/DM2019TR/Datamart_Upload/TRG_Datamart_2019-10-25.csv,16.68 MB
+175,/Shared/DM/DM2019TR/Datamart_Upload/Datamart_TRG_2019-06-21.csv,17.21 MB
+176,/Shared/DM/DM2019TR/Datamart_Upload/Datamart_TRE_2019-08-30.csv,17.72 MB
+177,/Shared/DM/_ARCHIVE/MKavaliova/Data/Zeus_mob_perf.csv,19.18 MB
+178,/Shared/DM/YeonjiChoi/SME/Auto/auto_list_delivery.csv,22.68 MB
+179,/Shared/DM/DM2019TR/Datamart_Upload/TRG_Datamart_201912_2019-12-06.csv,24.27 MB
+180,/Shared/DM/PaulaSanchez/Credit Card/SUMMARY.csv,27.56 MB
+181,/Shared/DM/PaulaSanchez/Installment Loans/OOF Analysis/Rank_Mapping.csv,32.2 MB
+182,/Shared/DM/Barbara_Klingler/Audit Reqs/Card Audit List 2.csv,32.71 MB
+183,/Shared/DM/Acxiom Inputs/Zip AltData/Census2018/allcensus_2018.csv,34.89 MB
+184,/Shared/DM/_ARCHIVE/SagarMeisheri/SE Analysis/wave_7_9_responses.csv,35.16 MB
+185,/Shared/DM/PaulaSanchez/Installment Loans/internal_20191023.sas7bdat.csv,35.18 MB
+186,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/exp_w5_perf_few_sam.csv,35.94 MB
+187,/Shared/DM/PaulaSanchez/Installment Loans/Int_lead_update.csv,36.45 MB
+188,/Shared/DM/YeonjiChoi/Old Files/TU Email Test/EML Leads/Zeus_DMfile_EML_200k.csv,40.45 MB
+189,/Shared/DM/DM202011/Source Files/Preference/Preference_20200923.csv,41.9 MB
+190,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/ads_dev_sp35678_test.csv,42.2 MB
+191,/Shared/DM/DM202012/Source Files/Preference/Preference_20201014.csv,42.45 MB
+192,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_052319.csv,48.32 MB
+193,/Shared/DM/PaulaSanchez/Installment Loans/Acxiom DM List Test/input/acxiom_master_appended.csv,49.46 MB
+194,/Shared/DM/YeonjiChoi/Unarchive/DM201902/Final Files/SQL Uploads/Zeus_DMfile_201902_EXEC2_Fix.csv,50.79 MB
+195,/Shared/DM/_ARCHIVE/MKavaliova/Acxiom_production/axiom/rawdata/merge/target.csv,51.49 MB
+196,/Shared/DM/_ARCHIVE/MKavaliova/Acxiom_production/axiom/rawdata/merge/ZEUS_SIP_DEBT.csv,64.53 MB
+197,/Shared/DM/_ARCHIVE/MKavaliova/H2O/Model/pojo/exp_all_new.csv,66.75 MB
+198,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/exp_all_new58.csv,67.95 MB
+199,/Shared/DM/_ARCHIVE/SagarMeisheri/Exp_sc_auto_cv_ITA/02_Model/8_aws/scored_data_unique_plus4.csv,68.86 MB
+200,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/ads_2_062018.csv,69.29 MB
+201,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/exm_dev_sp_356.csv,70.32 MB
+202,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/ads_dev_sp35678_train.csv,74.65 MB
+203,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tum_lp_dev.csv,77.36 MB
+204,/Shared/DM/YeonjiChoi/Unarchive/DM201902/Final Files/SQL Uploads/Zeus_DMfile_201902_EXEC3.csv,84.4 MB
+205,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/exm_dev_sp35678_test.csv,88.71 MB
+206,/Shared/DM/PaulaSanchez/Installment Loans/Facebook Internal Retargetting/int_202007.csv,92.09 MB
+207,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/LN_resp_training_cap.csv,107.82 MB
+208,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/exm_dev_sp35678_train.csv,116.12 MB
+209,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_053119.csv,121.6 MB
+210,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_060719.csv,123.1 MB
+211,/Shared/DM/PaulaSanchez/Installment Loans/Facebook Internal Retargetting/int_201902.csv,126.91 MB
+212,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_ml_dev_bal_15.csv,132.03 MB
+213,/Shared/DM/PaulaSanchez/Installment Loans/Facebook Internal Retargetting/int_201904.csv,138.74 MB
+214,/Shared/DM/DM202010/Final_Files/SQL_Uploads/Datamart_202010SEC_2020-10-09.csv,142.06 MB
+215,/Shared/DM/YeonjiChoi/Old Files/TU Email Test/EML Leads/Zeus_DMfile_EML_v2.csv,158.14 MB
+216,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_121319.csv,158.18 MB
+217,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_080219.csv,165.82 MB
+218,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_100419.csv,165.85 MB
+219,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_072619.csv,169.73 MB
+220,/Shared/DM/PaulaSanchez/Installment Loans/Facebook Internal Retargetting/int_201906.csv,170.25 MB
+221,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/exm_dev_sp_35678.csv,170.59 MB
+222,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_091319.csv,172.59 MB
+223,/Shared/DM/PaulaSanchez/Installment Loans/Facebook Internal Retargetting/int_201907.csv,173.16 MB
+224,/Shared/DM/PaulaSanchez/Installment Loans/Facebook Internal Retargetting/int_202003.csv,173.57 MB
+225,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_082319.csv,180.0 MB
+226,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_101119.csv,181.39 MB
+227,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_072219.csv,188.46 MB
+228,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_102519.csv,190.99 MB
+229,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_06282019.csv,191.12 MB
+230,/Shared/DM/PaulaSanchez/Installment Loans/Facebook Internal Retargetting/int_202004.csv,192.42 MB
+231,/Shared/DM/PaulaSanchez/Installment Loans/Facebook Internal Retargetting/int_202005.csv,194.16 MB
+232,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_070519.csv,195.55 MB
+233,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/CL_resp_dev_bal.csv,196.71 MB
+234,/Shared/DM/PaulaSanchez/Installment Loans/Facebook Internal Retargetting/int_201909.csv,197.5 MB
+235,/Shared/DM/Acxiom Inputs/Customer Updates/Customer Update 20170508.csv,197.6 MB
+236,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_083019.csv,197.77 MB
+237,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_ml_dev_bal_10.csv,198.73 MB
+238,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_071219.csv,204.28 MB
+239,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_112219.csv,205.5 MB
+240,/Shared/DM/Acxiom Inputs/Mail History/mail_history_int708to1012.csv,209.45 MB
+241,/Shared/DM/Acxiom Inputs/Customer Updates/Customer_Update_20170511.csv,212.79 MB
+242,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/profile_booster_ln_perf_oot.csv,224.26 MB
+243,/Shared/DM/DM202010/Final_Files/SQL_Uploads/Datamart_202010CDE_2020-09-25.csv,231.63 MB
+244,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/ln_test_all_03_nohit_header.csv,232.51 MB
+245,/Shared/DM/Analysis/20190405_Automatic_Model/Mail_File_Automation/FILE/EFX_attributes_202007.csv,244.78 MB
+246,/Shared/DM/Barbara_Klingler/Scripts/Retro Fix DM Data Files/Finscore 2018_03/TU_FINSCORE.csv,250.51 MB
+247,/Shared/DM/Acxiom Inputs/Customer Updates/Customer_Update_20191016.csv,251.36 MB
+248,/Shared/DM/Acxiom Inputs/Customer Updates/FULLFILE_Customer_Update_20180508.csv,258.19 MB
+249,/Shared/DM/DM2019TR/From_DMS/Weekly_Trigger_Final_File_120619.csv,267.19 MB
+250,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/exp_w5_perf_kept.csv,274.73 MB
+251,/Shared/DM/_ARCHIVE/SagarMeisheri/ITA/Infobase ITA/01_Data/ib_scored_dataset.csv,279.7 MB
+252,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/dm10_tu_exp_cl_ln_perf_min.csv,283.07 MB
+253,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/ln_test_all_03_appl.csv,301.2 MB
+254,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/ln_test_all_03_nohit_tbnh.csv,306.64 MB
+255,/Shared/DM/YeonjiChoi/Old Files/TU Email Test/EML Leads/Zeus_DMfile_EML.csv,316.28 MB
+256,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/ln_test_all_03.csv,316.75 MB
+257,/Shared/DM/_ARCHIVE/SagarMeisheri/Exp_sc_auto_cv_ITA/01_Data/train_pd_not_matching.csv,333.98 MB
+258,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/dm56789_tu_exp_meta_oot_min.csv,342.93 MB
+259,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/rv50_ln_perf_oot.csv,351.86 MB
+260,/Shared/DM/YeonjiChoi/Unarchive/DM201902/Final Files/SQL Uploads/Datamart_2019-02-01.csv,363.57 MB
+261,/Shared/DM/DM Model Inventory/202008_LN_ADS_V3/ln_validation.csv,387.28 MB
+262,/Shared/DM/DM202010/Final_Files/SQL_Uploads/Datamart_202010INT_2020-10-02.csv,397.28 MB
+263,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_ml_dev_bal_5.csv,397.85 MB
+264,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_2017_09_10_perf_new_smpl_nscr.csv,401.26 MB
+265,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_3_models_scred.csv,405.44 MB
+266,/Shared/DM/DM202010/Source Files/Internal/Internal_selection_20200908.csv,474.76 MB
+267,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_dev_bal2_core.csv,496.82 MB
+268,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/all_top_vars.csv,554.49 MB
+269,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/exp_w5_perf_scred_ml_sam.csv,558.74 MB
+270,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_dev_bal2_app.csv,562.47 MB
+271,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/mk.tu_dev_bal2.csv,572.15 MB
+272,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/cl_w3_perf.csv,578.33 MB
+273,/Shared/DM/YeonjiChoi/Unarchive/DM201902/Final Files/SQL Uploads/Datamart_2019-01-25.csv,623.7 MB
+274,/Shared/DM/DM Model Inventory/202008_TT_ADS_V3/tt_validation.csv,635.14 MB
+275,/Shared/DM/Analysis/20190405_Automatic_Model/Mail_File_Automation/FILE/FT_attributes_202007.csv,646.62 MB
+276,/Shared/DM/DM202010/Final_Files/SQL_Uploads/Datamart_202010EXT_2020-09-25.csv,654.87 MB
+277,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_w4_7_test.csv,672.21 MB
+278,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/mk.cl_perf_mod_oot2.csv,688.16 MB
+279,/Shared/DM/_ARCHIVE/SagarMeisheri/SE Analysis/mailfile_se.csv,689.76 MB
+280,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/mk.ft_perf_mod_oot.csv,698.77 MB
+281,/Shared/DM/Acxiom Inputs/Customer Updates/Customer_Update_20191004.csv,702.73 MB
+282,/Shared/DM/YeonjiChoi/Unarchive/DM201902/Final Files/SQL Uploads/Datamart_2019-01-18.csv,703.15 MB
+283,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_resp_sp_scr_w6.csv,712.68 MB
+284,/Shared/DM/Analysis/20190405_Automatic_Model/Mail_File_Automation/FILE/FT_attributes_202008.csv,725.76 MB
+285,/Shared/DM/Acxiom Inputs/Mail History/Mail_History_20170718.csv,760.37 MB
+286,/Shared/DM/DM202011/Source Files/Customer Updates/Customer_Update_20201001_TEST.csv,781.53 MB
+287,/Shared/DM/DM Documents/Internal Audit/Wave10_mailfile_fullnames.csv,830.34 MB
+288,/Shared/DM/YeonjiChoi/Analytic Server Files/EFX_attributes_201907.csv,836.1 MB
+289,/Shared/DM/DM Documents/Internal Audit/Wave 10 Mailfile.csv,862.35 MB
+290,/Shared/DM/DM202011/Final_Files/SQL_Uploads/Datamart_202011EXT_2020-10-30.csv,902.62 MB
+291,/Shared/DM/Acxiom Inputs/Mail History/Mail History 3c.csv,926.71 MB
+292,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/CL_resp_dev.csv,956.58 MB
+293,/Shared/DM/Acxiom Inputs/Mail History/Mail History 3b.csv,980.47 MB
+294,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/adsm_w7_8_oot_tbnh.csv,1.05 GB
+295,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/adsm_w7_8_oot_tbnh2.csv,1.05 GB
+296,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/mk.cl_perf_mod_dev2.csv,1.06 GB
+297,/Shared/DM/YeonjiChoi/Unarchive/DM201902/Final Files/SQL Uploads/Zeus_DMfile_201902_EXEC1.csv,1.06 GB
+298,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_ml_dev_bal.csv,1.07 GB
+299,/Shared/DM/Analysis/20190405_Automatic_Model/Mail_File_Automation/FILE/ams_attributes_202007.csv,1.07 GB
+300,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/dm_exp_dev_tab.csv,1.19 GB
+301,/Shared/DM/Analysis/20190405_Automatic_Model/Mail_File_Automation/FILE/mailfile_attributes_202007.csv,1.2 GB
+302,/Shared/DM/Acxiom Inputs/Mail History/Mail History 1.csv,1.2 GB
+303,/Shared/DM/Acxiom Inputs/Mail History/Mail History 2c.csv,1.21 GB
+304,/Shared/DM/Acxiom Inputs/Mail History/Mail History 2a.csv,1.22 GB
+305,/Shared/DM/Acxiom Inputs/Mail History/Mail History 2b.csv,1.22 GB
+306,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_w4_7_train.csv,1.3 GB
+307,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/tu_2017_09_10_perf_new_smpl_scr.csv,1.33 GB
+308,/Shared/DM/Analysis/20190405_Automatic_Model/Mail_File_Automation/FILE/mailfile_attributes_202008.csv,1.35 GB
+309,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/mk.ft_perf_mod_dev.csv,1.41 GB
+310,/Shared/DM/_ARCHIVE/SagarMeisheri/ITA/Infobase ITA/01_Data/ib_exp_core.csv,1.53 GB
+311,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/LN_resp_prof_train.csv,1.6 GB
+312,/Shared/DM/Analysis/20190405_Automatic_Model/Mail_File_Automation/FILE/CL_attributes_202007.csv,1.67 GB
+313,/Shared/DM/Analysis/20190405_Automatic_Model/Mail_File_Automation/FILE/pscs_attributes_202008.csv,1.68 GB
+314,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/mk.super_meta_dev_smpl_min_50.csv,1.8 GB
+315,/Shared/DM/Analysis/20190405_Automatic_Model/Mail_File_Automation/FILE/CL_attributes_202008.csv,1.97 GB
+316,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/exp_ml_052018_dev_bal.csv,1.99 GB
+317,/Shared/DM/_ARCHIVE/MKavaliova/Data/Acxiom/Colombo/mk.cl_perf_mod.csv,1.99 GB
