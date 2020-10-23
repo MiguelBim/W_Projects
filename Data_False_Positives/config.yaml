@@ -12,5 +12,8 @@ scan_files:
     offset: 0
     limit: -1
     page_size: 10
-  output_file: matches_samples.json
+  output_file: txt_files_DM.json
+  fail_over: true
+SMB_connection:
+  attempts: 5
 

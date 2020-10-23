@@ -7,7 +7,7 @@ Script to find false positives in BigID results
 Using virtualenv
 ~~~
 virtualenv -p /usr/bin/python3.6 env
-source activate env
+source env/bin/activate 
 pip install -r requirements.txt
 ~~~
 ### Run

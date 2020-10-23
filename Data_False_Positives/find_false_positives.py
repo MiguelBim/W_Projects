@@ -5,6 +5,7 @@ from concurrent_processing import SMBHandler
 import dask
 from timeit import default_timer as timer
 import re
+import os
 from collections import Counter
 
 
@@ -42,38 +43,52 @@ def find_samples(df, classifiers):
 
 
 @dask.delayed
-def find_samples_concurrently(service_name, path, classifiers):
+def find_samples_concurrently(service_name, path, classifiers, attempts):
     if path.find('.txt') == len(path) - 4:
         return find_sample_for_plain_text(service_name, path, classifiers)
     elif path.find('.csv') == len(path) - 4:
         smb_handler = SMBHandler()
-        df, _ = smb_handler.retrieve_csv_from_smb(service_name, path)
+        df, _ = smb_handler.retrieve_csv_from_smb(service_name, path, attempts=attempts)
         if not df.empty:
             samples = find_samples(df, classifiers)
             if samples:
-                return {"path": path, "samples": samples}
+                #return {"path": path, "samples": samples}
+                return {"path": "{}/{}".format(service_name, path), "samples": samples}
+            else:
+                {"path": "{}/{}".format(service_name, path)}
+        else:
+            return find_sample_for_plain_text(service_name, path, classifiers)
     return {}
 
 
 def find_false_positives(paths, page_size=50):
     start_time = timer()
-
+    output_file = config['scan_files']['output_file'].get()
+    attempts = config['SMB_connection']['attempts'].get()
     paged_paths = [paths[i:i+page_size] for i in range(0, len(paths), page_size)]
-
-    results_by_file = {}
-    for p in paged_paths:
-        data = [find_samples_concurrently(name.split('/')[0], '/'.join(name.split('/')[1:]), classifiers) for name in p]
-        dfs = dask.compute(data)[0]
-        for aux in dfs:
-            if aux:
+    invalid_files = "zero_matches_{}".format(output_file)
+    not_samples = read_json_file(invalid_files)
+    if not not_samples:
+        not_samples = []
+    results_by_file = read_json_file(output_file)
+    for k, p in enumerate(paged_paths):
+        data = [find_samples_concurrently(name.split('/')[0], '/'.join(name.split('/')[1:]), classifiers, attempts) for name in p]
+        sample_result = dask.compute(data)[0]
+        for aux in sample_result:
+            if 'samples' in aux and 'path' in aux:
                 path = aux['path']
                 samples = aux['samples']
                 results_by_file[path] = samples
-        print("func=find_false_positives, duration={}, scanned_files={}".format(timer() - start_time, len(p)))
+            elif 'path' in aux:
+                not_samples.append(aux['path'])
 
-        output_file = config['scan_files']['output_file'].get()
+        print("func=find_false_positives, duration={}, scanned_files={}, zero_matches_files={}".format(
+            timer() - start_time, (1+k) * len(p), len(not_samples)))
+
         with open(output_file, 'w') as fp:
             json.dump(results_by_file, fp, indent=4)
+        with open(invalid_files, 'w') as fp:
+            json.dump(not_samples, fp, indent=4)
     end_time = timer()
     duration_seconds = end_time - start_time
     print("func=find_false_positives, duration={}, scanned_files={}".format(duration_seconds, len(paths)))
@@ -91,10 +106,12 @@ def extract_possible_header(line, headers, pattern):
 
 def find_sample_for_plain_text(service_name, path, classifiers):
     local_path = SMBHandler().retrieve_text_file_from_smb(service_name, path)
-    samples = scan_plain_text(local_path, classifiers)
+    samples = scan_plain_text(local_path[0], classifiers)
     if samples:
-        return {"path": path, "samples": samples}
-    return {}
+        #return {"path": path, "samples": samples}
+        return {"path": "{}/{}".format(service_name, path), "samples": samples}
+    else:
+        return {"path": "{}/{}".format(service_name, path)}
 
 
 def scan_plain_text(path, classifiers):
@@ -138,11 +155,37 @@ def scan_plain_text(path, classifiers):
         print("func=scan_plain_text, found_patterns={}, msg={}, line={}".format(len(results_by_file.keys()), e, last_line))
     return results_by_file
 
-
 def get_paths_from_big_id_report(file_name):
     df = pd.read_csv(file_name, dtype=str)
-    paths = df['Full Object Name'].tolist()[:100]
+    paths = df['Full Object Name'].tolist()
     return paths
+
+
+def read_json_file(file_name):
+    exist = os.path.isfile(file_name)
+    if not exist:
+        return {}
+    with open(file_name) as f:
+        scanned_paths = json.load(f)
+    return scanned_paths
+
+
+def fail_over_control(output_file, paths_to_scan):
+    invalid_files = "zero_matches_{}".format(output_file)
+    scanned_paths = read_json_file(output_file)
+    scanned_paths_errors = read_json_file(output_file)
+    # Delete Service Name
+    #paths_to_scan = ['/'.join(path.split('/')[1:]) for path in paths_to_scan]
+    scanned_paths_set = set(scanned_paths.keys()).union(set(scanned_paths_errors))
+    unscanned_paths = set(paths_to_scan).difference(scanned_paths_set)
+    print("func=fail_over_control, output_file: {}, paths_to_scan={}, scanned_paths={}, skipped_paths={}".format(
+        output_file, len(paths_to_scan), len(scanned_paths), len(paths_to_scan)-len(unscanned_paths))
+    )
+    return list(unscanned_paths)
+
+
+def split_smb_path(path):
+    return path.split('/')[0], '/'.join(path.split('/')[1:])
 
 
 if __name__ == "__main__":
@@ -153,9 +196,13 @@ if __name__ == "__main__":
     offset = config['scan_files']['pagination']['offset'].get()
     limit = config['scan_files']['pagination']['limit'].get()
     file_name = config['BigID']['report_file'].get()
+    output_file = config['scan_files']['output_file'].get()
 
+    #scan_plain_text('/Users/oswaldo.cruz/Downloads/dmg_encryption_internal_050317-Encrypted 2.txt', classifiers)
     paths = get_paths_from_big_id_report(file_name)
     paths = paths[offset:limit]
+    paths = fail_over_control(output_file, paths)
+    paths = SMBHandler().sort_files_from_server(paths)
     _ = find_false_positives(paths, page_size=page_size)
     len(_)
 
