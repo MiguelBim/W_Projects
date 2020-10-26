@@ -97,10 +97,12 @@ def find_false_positives(paths, page_size=50):
 
 def extract_possible_header(line, headers, pattern):
     possible_delimiters = {k: v for k, v in Counter(line).items() if not re.match(pattern, k)}
-    delimiter = list(possible_delimiters.keys())[0]
-    index = [i for i, v in enumerate(line.split(delimiter)) if re.match(pattern, v) and i < len(headers.split('|'))]
-    if index:
-        return [headers.split('|')[i] for i in index]
+    possible_delimiters = [i for i in possible_delimiters.keys() if re.match('\W', i) and not re.match('\s|\.', i)]
+    if possible_delimiters:
+        delimiter = possible_delimiters[0]
+        index = [i for i, v in enumerate(line.split(delimiter)) if re.match(pattern, v) and i < len(headers.split('|'))]
+        if index:
+            return [headers.split('|')[i] for i in index]
     return []
 
 
@@ -198,7 +200,6 @@ if __name__ == "__main__":
     file_name = config['BigID']['report_file'].get()
     output_file = config['scan_files']['output_file'].get()
 
-    #scan_plain_text('/Users/oswaldo.cruz/Downloads/dmg_encryption_internal_050317-Encrypted 2.txt', classifiers)
     paths = get_paths_from_big_id_report(file_name)
     paths = paths[offset:limit]
     paths = fail_over_control(output_file, paths)
