@@ -142,7 +142,7 @@ def filter_by_states(df, states):
 
 
 if __name__ == '__main__':
-    bigid_rep_name = "Objects (Square).csv"
+    bigid_rep_name = "Objects.csv"
     sas_server = 'Square'
 
     # EXTRACT MEANINGFUL FILES PATHS
