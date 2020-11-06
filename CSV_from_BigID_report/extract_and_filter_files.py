@@ -38,7 +38,7 @@ if __name__ == '__main__':
     report_name = 'Objects (Whole).csv'
     # pattern = 'fraudcheck'
 
-    #EXTRACTION PHASE
+    # EXTRACTION PHASE
     # extract_csv_txt_files(report_name)
     extract_excel_files(report_name)
     # extract_paths_from_pattern(report_name, pattern)
