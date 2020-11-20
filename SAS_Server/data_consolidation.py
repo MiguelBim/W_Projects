@@ -21,12 +21,12 @@ warnings.filterwarnings("ignore")
 # FUNCTION TO FILTER MEANINGFUL FILES PATHS FROM BIGID INVENTORY REPORT
 def extract_clarity_reports(report_name, sas_folder):
     df = pd.read_csv(report_name)
-    reduced_df = df[['Full Object Name']] #, 'Object Name', 'PII Count'
-    filtered_reduced_df = reduced_df[reduced_df['Full Object Name'].str.contains("clarity")]
-    filtered_reduced_df['Full Object Name'] = filtered_reduced_df['Full Object Name'].map(lambda x: x.lstrip(sas_folder))
-    filtered_reduced_df.to_csv('alltrust_files_paths.csv', header=True, index=True)
+    reduced_df = df[['Full Object Name']]
+    # filtered_reduced_df = reduced_df[reduced_df['Full Object Name'].str.contains("clarity")]
+    reduced_df['Full Object Name'] = reduced_df['Full Object Name'].map(lambda x: x.lstrip(sas_folder))
+    reduced_df.to_csv('filtered_files_paths.csv', header=True, index=True)
 
-    return filtered_reduced_df
+    return reduced_df
 
 
 # FUNCTION TO READ AND RETRIEVE FILES FROM SAS SERVER
@@ -68,8 +68,8 @@ def consolidate_data(bigid_rep_df, service_name):
     for path in bigid_rep_df['Full Object Name']:
         try:
             sas_file_df, real_path = retrieve_file_fromsmb(service_name, path)
-            sas_df_subset = sas_file_df[['inquiry_social_security_number', 'inquiry_state']]
-            sas_df_subset.inquiry_social_security_number = sas_df_subset.inquiry_social_security_number.fillna(0).astype(int)
+            sas_df_subset = sas_file_df[['SocialSecurityNumber', 'IDState']]
+            sas_df_subset.SocialSecurityNumber = sas_df_subset.SocialSecurityNumber.fillna(0).astype(int)
             sas_df_subset.insert(loc=0, column='Path', value=real_path)
             # sas_df_subset.to_csv('processed_file.csv', header=True, index=False)
             consolidate_df = consolidate_df.append(sas_df_subset, ignore_index=True)
@@ -78,9 +78,9 @@ def consolidate_data(bigid_rep_df, service_name):
             print("\t---> Process of data consolidation FAILED for file -> " + path)
             print("Error: {}".format(e))
 
-    consolidate_df = consolidate_df[consolidate_df['inquiry_social_security_number'] != 0]
-    final_df = consolidate_df.drop_duplicates(subset='inquiry_social_security_number', keep='first').reset_index(drop=True)
-    final_df.to_csv('data_consolidation_details_3.csv', header=True, index=True)
+    consolidate_df = consolidate_df[consolidate_df['SocialSecurityNumber'] != 0]
+    final_df = consolidate_df.drop_duplicates(subset='SocialSecurityNumber', keep='first').reset_index(drop=True)
+    final_df.to_csv('data_consolidation.csv', header=True, index=True)
 
     return
 
@@ -106,7 +106,7 @@ def extract_data_locally(bigid_rep_name, real_path):
 
 
 # READ AND CONSOLIDATE DIFFERENT "SUBCONSOLIDATED FILES" LOCALLY
-def consolidate_local_files(number_of_files):
+def integrate_local_files(number_of_files):
 
     consolidate_df = pd.DataFrame([])
 
@@ -124,6 +124,14 @@ def consolidate_local_files(number_of_files):
     final_df = consolidate_df.drop_duplicates(subset='Social_security_number', keep='first').reset_index(drop=True)
     final_df.to_csv('data_consolidation_details_final.csv', header=True, index=True)
 
+    return
+
+
+def delete_column_from_csv(csv_file_name, column_to_remove):
+
+    original_df = pd.read_csv(csv_file_name)
+    changed_df = original_df.drop(column_to_remove, axis=1)
+    changed_df.to_csv('data_consolidation_no_ssn.csv', header=True, index=False)
 
     return
 
@@ -131,31 +139,45 @@ def consolidate_local_files(number_of_files):
 def filter_by_states(df, states):
 
     try:
-        filtered_df = df.loc[df['state'].isin(states)]
+        # IN
+        # filtered_df = df.loc[df['State'].isin(states)]
+        # NOT IN
+        filtered_df = df.loc[~df['State'].isin(states)]
         # filtered_df.insert(loc=0, column='Num', value=range(1, len(filtered_df) + 1))
-        filtered_df.drop_duplicates(subset='SocialSecurityNumber')
+        filtered_df.drop_duplicates(subset='State')
         filtered_df.to_csv('data_consolidation (Others).csv', header=True, index=False)
-    except:
+    except Exception as e:
         print('There was an issue when filtering for those values. Please check')
+        print(e)
 
     return
 
 
 if __name__ == '__main__':
-    bigid_rep_name = "Objects.csv"
-    sas_server = 'Square'
 
     # EXTRACT MEANINGFUL FILES PATHS
+    # bigid_rep_name = "Objects.csv"
+    # sas_server = 'Workspaces'
     # clarity_files_path = extract_clarity_reports(bigid_rep_name, sas_server)
     # clarity_files_path.to_csv('clarity_files_paths_rap.csv', header=True, index=False)
 
     # CREATE UNIFIED DATAFRAME AUTOMATICALLY
     # consolidate_data(clarity_files_path, sas_server)
+    # files_to_integrate = 6
+    # integrate_local_files(files_to_integrate)
+
+    # DELETE COLUMN (NORMALLY SSN)
+    # csv_name = 'data_consolidation_details_final.csv'
+    # column_name = 'Social_security_number'
+    # delete_column_from_csv(csv_name, column_name)
 
     # FILTER BY STATES (LIST OF VALUE) THE CONSOLIDATION FILE
-    # df = pd.read_csv("data_consolidation_details.csv", index_col=0)
-    # states = ['CA','TX']
-    # filter_by_states(df, states)
+    df = pd.read_csv("data_consolidation_no_ssn.csv")
+    print(df)
+    states = ['TX', 'CA']
+    filter_by_states(df, states)
+
+
 
     ####### LOCAL PROCESS #######
 
@@ -165,5 +187,5 @@ if __name__ == '__main__':
     # extract_data_locally(file_name, file_path)
 
     # CONSOLIDATE LOCAL FILES ALREADY PROCESSED
-    number_of_files = 3
-    consolidate_local_files(number_of_files)
+    # number_of_files = 3
+    # consolidate_local_files(number_of_files)
