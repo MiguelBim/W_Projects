@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 import mysql.connector
 import pandas as pd
 import warnings
+import os.path
 import os
 
 pd.set_option('display.max_rows', 700)
@@ -65,9 +66,8 @@ def delete_columns_from_df(df):
                         remove_ans = input("\nWould you like to remove another(yes/no): ").strip().lower()
                         if remove_ans == 'no':
                             removal_flag = False
-                            print("-"*110+"\nThe fields to be found are: \n")
+                            print("-"*110+"\nThe attributes to be query are: \n")
                             print(df)
-                            print("\n"+"-"*110)
                     except Exception as e:
                         print("It was not possible to delete the column, please check error:")
                         print(e)
@@ -119,11 +119,28 @@ def look_for_state_column(df, schema_name, table_name):
                 has_state_column = True
             else:
                 print("\t\t--> That column does not exist, please check and try again.")
+
     elif state_field_list and len(state_field_list) == 1:
+        print("\nThe following state column was the only one found in {}.{} table".format(schema_name.upper(), table_name.upper()))
+        print("\t--> {}".format(state_field_list[0]))
+        while correct_answer:
+            column_election = input("\n\tIs it possible to use it to group by US State (yes/no): ").strip().lower()
+            if column_election == 'yes':
+                print("\t\t--> Column '{}' was selected for {}.{} table.".format(column_election, schema_name.upper(), table_name.upper()))
+                correct_answer = False
+                has_state_column = True
+            elif column_election == 'no':
+                print("\t\t--> NO column was found for {}.{} table.".format(schema_name.upper(), table_name.upper()))
+                correct_answer = False
+                has_state_column = False
+            else:
+                print("\t\t--> That entry was not correct, please check and try again.")
+
         column_election = state_field_list[0]
-        has_state_column = True
+
     else:
         print("There was not found any column with state value in {}.{}".format(schema_name.upper(), table_name.upper()))
+        column_election = ''
 
     return has_state_column, column_election
 
@@ -141,21 +158,37 @@ def get_attributes_count(df, attribute_election):
             column_query_results = run_query(columns_query, ['COLUMN_NAME'])
             has_state, state_column_value = look_for_state_column(column_query_results, row['SCHEMA_NAME'], row['TABLE_NAME'])
             if has_state:
-                final_df_column_names = [attribute_election.upper(), state_column_value.upper()]
-                data_query = "SELECT `" + state_column_value + "`, COUNT(`" + row['COLUMN_NAME'] + "`) AS Total_Count " +\
+                final_df_column_names = [attribute_election.upper() + "_TOTAL_COUNT", state_column_value.upper()]
+                data_query = "SELECT `" + state_column_value + "`, COUNT(`" + row['COLUMN_NAME'] + "`) AS Total_Count " + \
                              "FROM " + row['SCHEMA_NAME'] + "." + row['TABLE_NAME'] + " " +\
                              "GROUP BY `" + state_column_value + "`;"
                 print("\nQuery executed: \n\t--> {}\n".format(data_query))
                 data_query_results = run_query(data_query, final_df_column_names)
-                data_query_results.to_csv(row['SCHEMA_NAME'] + "_" + row['TABLE_NAME'] + "_count.csv", header=True)
+
+                column_name = row['COLUMN_NAME'].replace(' ', '').replace('/','').lower()
+                file_to_be_saved = row['SCHEMA_NAME'] + ">" + row['TABLE_NAME'] + ">" + column_name + ".csv"
+                if os.path.exists(file_to_be_saved):
+                    file_to_be_saved = row['SCHEMA_NAME'] + ">" + row['TABLE_NAME'] + ">" + column_name + "-2" + ".csv"
+                    data_query_results.to_csv(file_to_be_saved.strip(), header=True)
+                else:
+                    data_query_results.to_csv(file_to_be_saved.strip(), header=True)
+
                 print(data_query_results)
             else:
-                final_df_column_names = [attribute_election.upper()]
-                data_query = "SELECT COUNT(DISTINCT (`" + row['COLUMN_NAME'] + "`)) " + \
+                final_df_column_names = [attribute_election.upper() + "_TOTAL_COUNT"]
+                data_query = "SELECT COUNT(DISTINCT(`" + row['COLUMN_NAME'] + "`)) " + \
                              "FROM " + row['SCHEMA_NAME'] + "." + row['TABLE_NAME'] + ";"
                 print("\nQuery executed: \n\t--> {}\n".format(data_query))
                 data_query_results = run_query(data_query, final_df_column_names)
-                data_query_results.to_csv(row['SCHEMA_NAME'] + "_" + row['TABLE_NAME'] + "_count.csv", header=True)
+
+                column_name = row['COLUMN_NAME'].replace(' ', '').replace('/', '').lower()
+                file_to_be_saved = row['SCHEMA_NAME'] + "-" + row['TABLE_NAME'] + "-" + column_name + ".csv"
+                if os.path.exists(file_to_be_saved):
+                    file_to_be_saved = row['SCHEMA_NAME'] + "-" + row['TABLE_NAME'] + "-" + column_name + "-2" + ".csv"
+                    data_query_results.to_csv(file_to_be_saved.strip(), header=True)
+                else:
+                    data_query_results.to_csv(file_to_be_saved.strip(), header=True)
+
                 print(data_query_results)
         except Exception as e:
             print("\nError for table {}.{}".format(row['SCHEMA_NAME'], row['TABLE_NAME']))
