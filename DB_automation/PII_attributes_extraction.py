@@ -158,10 +158,13 @@ def get_attributes_count(df, attribute_election):
             column_query_results = run_query(columns_query, ['COLUMN_NAME'])
             has_state, state_column_value = look_for_state_column(column_query_results, row['SCHEMA_NAME'], row['TABLE_NAME'])
             if has_state:
-                final_df_column_names = [attribute_election.upper() + "_TOTAL_COUNT", state_column_value.upper()]
+                final_df_column_names = [state_column_value.upper(), attribute_election.upper() + "_TOTAL_COUNT"]
                 data_query = "SELECT `" + state_column_value + "`, COUNT(`" + row['COLUMN_NAME'] + "`) AS Total_Count " + \
-                             "FROM " + row['SCHEMA_NAME'] + "." + row['TABLE_NAME'] + " " +\
-                             "GROUP BY `" + state_column_value + "`;"
+                             "FROM " + row['SCHEMA_NAME'] + "." + row['TABLE_NAME'] + " " + \
+                             "WHERE `" + state_column_value + "` IS NOT NULL " + \
+                             "GROUP BY `" + state_column_value + "` " + \
+                             "HAVING COUNT(`" + row['COLUMN_NAME'] + "`) > 0 " + \
+                             "ORDER BY Total_Count DESC;"
                 print("\nQuery executed: \n\t--> {}\n".format(data_query))
                 data_query_results = run_query(data_query, final_df_column_names)
 
