@@ -182,9 +182,9 @@ def get_attributes_count(df, attribute_election):
                 data_query_results = run_query(data_query, final_df_column_names)
 
                 column_name = row['COLUMN_NAME'].replace(' ', '').replace('/', '').lower()
-                file_to_be_saved = row['SCHEMA_NAME'] + "-" + row['TABLE_NAME'] + "-" + column_name + ".csv"
+                file_to_be_saved = row['SCHEMA_NAME'] + ">" + row['TABLE_NAME'] + ">" + column_name + ".csv"
                 if os.path.exists(file_to_be_saved):
-                    file_to_be_saved = row['SCHEMA_NAME'] + "-" + row['TABLE_NAME'] + "-" + column_name + "-2" + ".csv"
+                    file_to_be_saved = row['SCHEMA_NAME'] + ">" + row['TABLE_NAME'] + ">" + column_name + "-2" + ".csv"
                     data_query_results.to_csv(file_to_be_saved.strip(), header=True)
                 else:
                     data_query_results.to_csv(file_to_be_saved.strip(), header=True)
