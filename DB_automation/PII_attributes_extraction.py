@@ -23,7 +23,7 @@ warnings.filterwarnings("ignore")
 def extract_possible_fields(attributes_df):
 
     types_list = []
-    columns_needed = ['SCHEMA_NAME', 'TABLE_NAME', 'COLUMN_NAME', 'EXAMPLE', 'ENCRYPTED']
+    needed_columns = ['SCHEMA_NAME', 'TABLE_NAME', 'COLUMN_NAME', 'EXAMPLE', 'ENCRYPTED']
     correct_selection = True
 
     groups = attributes_df.groupby(['TYPE'])
@@ -38,7 +38,7 @@ def extract_possible_fields(attributes_df):
         else:
             print("\t--> Incorrect attribute selection. Please check and retry")
 
-    df_subset = attributes_df.loc[(attributes_df['TYPE'] == attribute_election) & (attributes_df['ENCRYPTED'] == 'No'), columns_needed]
+    df_subset = attributes_df.loc[(attributes_df['TYPE'] == attribute_election) & (attributes_df['ENCRYPTED'] == 'No'), needed_columns]
     print("\nThese are the fields found for selected criteria: \n")
     print(df_subset)
     print("\n"+"-"*110)
@@ -66,7 +66,7 @@ def delete_columns_from_df(df):
                         remove_ans = input("\nWould you like to remove another(yes/no): ").strip().lower()
                         if remove_ans == 'no':
                             removal_flag = False
-                            print("-"*110+"\nThe attributes to be query are: \n")
+                            print("-"*110+"\nThe attributes to be queried are: \n")
                             print(df)
                     except Exception as e:
                         print("It was not possible to delete the column, please check error:")
