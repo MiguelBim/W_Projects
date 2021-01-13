@@ -44,8 +44,6 @@ def extract_records(tables_df):
         table_counts = run_query(query)
         print("Number of records: {} ".format(table_counts))
 
-
-
     print(number_records_df)
 
 
