@@ -2,7 +2,6 @@ from dotenv import load_dotenv
 import mysql.connector
 import pandas as pd
 import warnings
-import os.path
 import os
 
 pd.set_option('display.max_rows', 700)
