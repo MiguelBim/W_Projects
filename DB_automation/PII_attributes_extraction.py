@@ -229,8 +229,6 @@ def main():
     print("\n"+"-"*110+"\nStarting Attributes Count\n")
     get_attributes_count(df_type_filtered, attribute_election)
 
-
-
     ## PAST WORK ##
     # query = "select * from INFORMATION_SCHEMA.COLUMNS where UPPER(TABLE_NAME) like 'PROGRESO_FINANCIERO' order by TABLE_NAME"
     # query_2 = "SELECT `Social Security Number`, STATE FROM PFE.progreso_financiero"
